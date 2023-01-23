@@ -1,0 +1,56 @@
+:root {
+    --color-gray-dark: #fafafa; /* background */
+    --color-gray-dark-alt: #dddddd; /* active */
+    --color-gray-dark-alt2: #eeeeee; /* hover */
+    --color-gray-normal: #555555; /* item */
+    --color-gray-light: #333333; /* headline */
+    --color-gray-light-alt: #555555; /* title.greyed-out */
+
+    --color-white: #333333; /* dark theme */
+    --color-green: #9bc1b6; /* adopt */
+    --color-orange: #f9d9c4; /* trial */
+    --color-blue: #54a5b1; /* assess, changed */
+    --color-marine: #aaaaaa; /* hold */
+    --color-red: #004996; /* new */
+    --color-brand: #004996; /* primary */
+    --until-sm: 30em;
+    --until-md: 48em;
+    --until-lg: 61.875em;
+    --until-xl: 75em;
+}
+
+body {
+    font-family: "Open Sans", "Lato";
+}
+
+.radar-grid {
+    color: var(--color-white)
+}
+.chart {
+    fill: var(--color-white)
+}
+.quadrant-label .description {
+    color: var(--color-white)
+}
+.search__field {
+    background: var(--color-gray-dark-alt2)
+}
+.search__field:focus {
+    background: var(--color-gray-dark-alt);
+}
+.badge--all {
+    background: var(--color-gray-dark-alt)
+}
+.item-page__content {
+    background: #eeeeee;
+}
+.flag {
+    color: #fafafa;
+}
+
+.markdown a {
+    font-weight: 700;
+}
+.markdown a:hover {
+    color: var(--color-gray-light)
+}
