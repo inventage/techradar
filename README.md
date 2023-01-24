@@ -12,23 +12,16 @@ Files for the configuration of the technology radar generator are located in the
 
 ## How to use?
 
-### Install Dependencies
+### Install Dependencies and build
 
-To install all required dependencies run:
+To install all required dependencies and build the radar run:
 
 ```bash
 npm install
+npm run build
 ```
 
-### Build the radar
-
-Build the radar using the [build.sh](./build.sh) script:
-
-```bash
-./build.sh
-```
-
-This script uses the AOE technology radar generator which produces static HTML files and other resources. These resources are then patched automatically:
+This build executes the `./build.sh` script, which uses the AOE technology radar generator and produces static HTML files and other resources. These resources are then patched automatically:
 - [path-styles.js](./patch-styles.js): Let's us override the styles using a custom [styles.css](./public/styles.css).
 - [path-translate.js](./patch-translate.js): Translates all static texts from English to German.
 
