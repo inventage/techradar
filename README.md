@@ -34,7 +34,7 @@ This script uses the AOE technology radar generator which produces static HTML f
 
 ### Static files
 
-The static files can be found in the [build](./build) directory.
+After a successful build, the static files are accessible in the `/build` directory.
 
 ## Helper scripts
 
