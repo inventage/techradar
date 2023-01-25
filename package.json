@@ -2,7 +2,7 @@
   "name": "techradar",
   "version": "1.0.0",
   "scripts": {
-    "build": "./build.sh",
+    "build": "./scripts/build.sh",
     "dev": "http-server ./build"
   },
   "devDependencies": {

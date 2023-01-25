@@ -21,9 +21,9 @@ npm install
 npm run build
 ```
 
-This build executes the `./build.sh` script, which uses the AOE technology radar generator and produces static HTML files and other resources. These resources are then patched automatically:
-- [path-styles.js](./patch-styles.js): Let's us override the styles using a custom [styles.css](./public/styles.css).
-- [path-translate.js](./patch-translate.js): Translates all static texts from English to German.
+This build executes the `./scripts/build.sh` script, which uses the AOE technology radar generator and produces static HTML files and other resources. These resources are then patched automatically:
+- [path-styles.js](./scripts/patch-styles.js): Let's us override the styles using a custom [styles.css](./public/styles.css).
+- [path-translate.js](./scripts/patch-translate.js): Translates all static texts from English to German.
 
 ### Static files
 
