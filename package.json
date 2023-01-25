@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "./build.sh",
-    "dev": "./node_modules/.bin/http-server ./build"
+    "dev": "http-server ./build"
   },
   "devDependencies": {
     "aoe_technology_radar": "~3.4.2",
