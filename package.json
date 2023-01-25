@@ -6,9 +6,10 @@
     "dev": "./node_modules/.bin/http-server ./build"
   },
   "devDependencies": {
-    "aoe_technology_radar": "^3.4.2",
-    "http-server": "^14.1.1",
+    "aoe_technology_radar": "~3.4.2",
     "csv-parser": "^3.0.0",
+    "http-server": "^14.1.1",
+    "replace-in-file": "^6.3.5",
     "write": "^2.0.0"
   }
 }
