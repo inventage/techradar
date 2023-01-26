@@ -11,5 +11,5 @@ Die Schnittstellen zwischen der Aussenwelt und den Komponenten sind klar definie
 Für das Erstellen von Webkomponenten verwenden wir in den meisten Projekten die JavaScript-Bibliothek [Lit][lit] und haben damit schon ganze Applikationen implementiert. Für komplexe Applikationen sehen wir allerdings auch den Mehrwert von etablierten Frameworks wie [Angular][angular], weil darin schon viele Architekturkonzepte einer modernen Applikation umgesetzt sind und zur Verfügung gestellt werden.
 
 [web-components]: https://webcomponents.today/
-[lit]: https://lit.dev/
-[angular]: https://angular.io/
+[lit]: ../libraries-frameworks-and-languages/lit.html
+[angular]: ../libraries-frameworks-and-languages/angular.html
