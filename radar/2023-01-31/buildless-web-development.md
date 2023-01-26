@@ -15,7 +15,7 @@ weggelassen. Beim Programmcode werden moderne Sprachfeatures verwendet, weil sie
 können. 
 
 Uns ist bewusst, dass es heute für produktive Releases in der Regel nicht ohne einen klassischen "Build" geht. Speziell
-dann, wenn unser Programmcode in einer Vielzahl von Programmiersprachen besteht und nicht nur in modernen Browsern
+dann, wenn unser Programmcode eine Vielzahl von Devices unterstützen und nicht nur in modernen Browsern
 lauffähig sein muss. Wir hoffen, es ist nur eine Frage der Zeit, bis sich die Browser-Landschaft so weit modernisiert,
 dass in Zukunft immer weniger Arbeitsschritte benötigt werden, um modernen Programmcode einer noch breiteren Masse
 zugänglich zu machen.
