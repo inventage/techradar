@@ -9,4 +9,4 @@ quadrant: libraries-frameworks-and-languages
 [1] die Bibliothek gibt es auch für weitere Sprachen wie z.B. Go, Phython oder .NET
 
 [testcontainers]: https://www.testcontainers.org/
-[quarkus]: https://quarkus.io/
+[quarkus]: ../libraries-frameworks-and-languages/quarkus.html
