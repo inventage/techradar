@@ -33,6 +33,9 @@ body {
 .chart {
     fill: var(--color-white);
 }
+.chart .tooltip.place-top::before {
+    background-color: initial;  /* Fix tooltip text being partially hidden */
+}
 .quadrant-label .description {
     color: var(--color-white);
 }
