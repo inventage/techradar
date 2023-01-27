@@ -14,9 +14,9 @@ Unsere Erfahrung zeigt aber auch, dass Microservices zu einer erhöhten Komplexi
 
 Zudem braucht es viel Erfahrung, die Funktionalität sinnvoll in einzelne Dienste zu unterteilen. Wenn es die Anforderungen an die Applikation erlauben, haben wir bei Inventage gute Erfahrungen gemacht, die Applikation anhand der unterschiedlichen Benutzergruppen aufzuteilen. Indem der Dienst einer Benutzergruppe mehrfach installiert wird, lässt sich auf diese Weise auch eine Mandantenfähigkeit elegant lösen.
 
-Über Microservices lassen sich moderne Applikationen in der Cloud entwicklen. Eine genaue Analyse der Anforderungen und ein Abwähgen der Vor- und Nachteile ist aber in jedem Fall erfolderlich. Nicht immer sind Microservices die einzige Lösung, wie eine Software umgesetzt werden kann. Eine Alternative zur Microservice-Architekur ist zum Beispiel der [Modulare Monolith][monolith], bei welchem ein Monolith in austauschbare und wiederverwendbare Module unterteilt wird.
+Über Microservices lassen sich moderne Applikationen in der Cloud entwicklen. Eine genaue Analyse der Anforderungen und ein Abwähgen der Vor- und Nachteile ist aber in jedem Fall erfolderlich. Nicht immer sind Microservices die einzige Lösung, wie eine Software umgesetzt werden kann. Eine Alternative zur Microservice-Architekur ist zum Beispiel der [Modulare Monolith][modularized-monolith], bei welchem ein Monolith in austauschbare und wiederverwendbare Module unterteilt wird.
 
 [microservices]: https://microservices.io/
 [martinfowler]: https://martinfowler.com/articles/micro-frontends.html
 [web-components]: ../concepts-and-methods/web-components.html
-[monolith]: ../concepts-and-methods/modularized-monolith.html
+[modularized-monolith]: ../concepts-and-methods/modularized-monolith.html
