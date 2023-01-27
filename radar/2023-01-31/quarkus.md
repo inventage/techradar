@@ -11,8 +11,10 @@ Applikationen zudem in den Genuss von schnellen Applikations-Starts, sowie einem
 CPU-Ressourcen.
 
 Quarkus stellt für uns eine gute Alternative zu [Java EE][jee] dar. Aktuell realisieren wir mehrere Projekte basierend
-auf Quarkus. Dabei entstehen Portal-Lösungen, Microservices im Openshift/Kubernetes-Umfeld oder auch monolithische
-Applikationen.
+auf Quarkus. Dabei entstehen Portal-Lösungen, Microservices im Openshift- bzw. [Kubernetes][kubernetes]-Umfeld oder auch
+monolithische Applikationen.
 
 [quarkus]: https://quarkus.io/
 [jee]: ../libraries-frameworks-and-languages/java-ee.html
+[kubernetes]: ../platforms/kubernetes.html
+
