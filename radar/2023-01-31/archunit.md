@@ -8,7 +8,8 @@ quadrant: libraries-frameworks-and-languages
 Hierbei werden insbesondere die Abhängigkeiten zwischen Modulen (Packages) gegen Verstösse gegen diese Definition
 überprüft, sodass der Test scheitert, falls unerlaubte Referenzen eingefügt wurden.
 
-Für den Architekturstil [Modularer Monolith](modularized-monolith.html) bietet ArchUnit ein wertvolles Werkzeug, um
+Für den Architekturstil [modularer Monolith][modularized-monolith] bietet ArchUnit ein wertvolles Werkzeug, um
 sicherzustellen, dass die Modul-Grenzen respektiert werden.
 
 [archunit]: https://www.archunit.org/
+[modularized-monolith]: ../concepts-and-methods/modularized-monolith.html
