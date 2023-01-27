@@ -31,7 +31,7 @@ sich auf diese Weise auch eine Mandantenfähigkeit elegant lösen.
 Über Microservices lassen sich moderne Applikationen in der Cloud entwickeln. Eine genaue Analyse der Anforderungen und
 ein Abwägen der Vor- und Nachteile ist aber in jedem Fall erforderlich. Nicht immer sind Microservices die einzige
 Lösung, wie eine Software umgesetzt werden kann. Eine Alternative zur Microservice-Architektur ist zum Beispiel der
-[Modulare Monolith][modularized-monolith], bei dem ein Monolith in austauschbare und wiederverwendbare Module
+[modulare Monolith][modularized-monolith], bei dem ein Monolith in austauschbare und wiederverwendbare Module
 unterteilt wird.
 
 [microservices]: https://microservices.io/
