@@ -33,6 +33,7 @@ body {
     color: var(--color-white)
 }
 .search__field {
+    font-family: "Open Sans", "Lato";
     background: var(--color-gray-dark-alt2)
 }
 .search__field:focus {
