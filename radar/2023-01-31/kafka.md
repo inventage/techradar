@@ -16,4 +16,3 @@ Microservicer-Architektur-Patterns wie z.B. Event-Sourcing eignet.
 [transactional-outbox]: https://microservices.io/patterns/data/transactional-outbox.html
 [debezium]: ../tools/debezium.html
 [uniport]: https://uniport.ch/
-
