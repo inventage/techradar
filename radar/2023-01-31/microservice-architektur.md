@@ -11,7 +11,7 @@ spezialisierten Dienste kommunizieren miteinander über Netzwerkaufrufe.
 Bei Inventage erweitern wir die Definition von Microservices auf das Frontend. Ein Microservice besteht sowohl aus
 Micro-Backend, als auch aus [Micro-Frontend][martinfowler]. Mit den Micro-Frontends werden unabhängig voneinander
 auslieferbare Frontend-Anwendungen zu einem grösseren Ganzen zusammengefügt. Um solche Micro-Frontends zu entwickeln,
-eigenen sich aus unserer Sicht [Webkomponenten][web-components].
+eigenen sich aus unserer Sicht [Web Components][web-components].
 
 Der Hauptvorteil von Microservices besteht darin, dass die Aufteilung der Applikation in einzelne Dienste es ermöglicht,
 Anwendungen schneller und flexibler zu entwickeln. Jeder einzelne Microservice ist weniger abhängig von anderen Teilen

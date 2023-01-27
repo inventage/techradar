@@ -4,7 +4,7 @@ ring:     adopt
 quadrant: concepts-and-methods
 ---
 
-[Webkomponenten][web-components] sind das native Komponentenmodell des Web. Sie sind heute weitverbreitet, in allen modernen Browsern unterstützt und können durch ihre hohe Interoperabilität in allen modernen Frameworks ohne Weiteres eingebunden werden. Sogar gewisse UI-Elemente der heutigen Browser sind mit Webkomponenten implementiert.
+[Web Components][web-components] sind das native Komponentenmodell des Web. Sie sind heute weitverbreitet, in allen modernen Browsern unterstützt und können durch ihre hohe Interoperabilität in allen modernen Frameworks ohne Weiteres eingebunden werden. Sogar gewisse UI-Elemente der heutigen Browser sind mit Webkomponenten implementiert.
 
 Die Schnittstellen zwischen der Aussenwelt und den Komponenten sind klar definiert. Wie das Innenleben einer Komponente implementiert ist, spielt dabei keine Rolle, solange die Standards und offiziellen APIs eingehalten werden.
 
