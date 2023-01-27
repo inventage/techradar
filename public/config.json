@@ -18,25 +18,25 @@
       "colour": "#0a7f90",
       "txtColour": "#555555",
       "position": 1,
-      "description": "Elemente des Softwareentwicklungsprozesses und Methoden / Muster zur Strukturierung von Software."
+      "description": "Elemente des Softwareentwicklungsprozesses und Methoden bzw. Muster zur Strukturierung von Software."
     },
     "platforms": {
       "colour": "#fe7b7f",
       "txtColour": "#555555",
       "position": 2,
-      "description": "Alles, worauf wir Software aufbauen. Infrastrukturplattformen und -dienste, sowohl extern als auch intern."
+      "description": "Alles, worauf wir Software aufbauen. Infrastrukturplattformen und -dienste, sowohl externe als auch interne."
     },
     "libraries-frameworks-and-languages": {
       "colour": "#70a696",
       "txtColour": "#555555",
       "position": 3,
-      "description": "Im Unterschied zu den Tools sind Libraries, Frameworks und Languages Teil vom Produkt und werden mit der Software selbst ausgelieferten. Es handelt sich um eine Art \"Runtime Artefakte\"."
+      "description": "Im Unterschied zu den Tools sind Libraries, Frameworks und Programmiersprachen Teil des Produkts und werden mit der Software selbst ausgeliefert. Es handelt sich um eine Art \"Runtime Artefakte\"."
     },
     "tools": {
       "colour": "#f7c9aa",
       "txtColour": "#555555",
       "position": 4,
-      "description": "Tools unterstützen uns bei der Arbeit. Sei das bei der Entwicklung der Software, bei der Installation von Software oder auch bei der Dokumentation von Software. Es können einfache Terminal basierte Tools sein oder aber native Applikationen oder Web Applikationen mit GUI."
+      "description": "Tools unterstützen uns bei der Arbeit. Sei das bei der Entwicklung der Software, bei der Installation von Software oder auch bei der Dokumentation von Software. Es können einfache Terminal basierte Tools sein oder aber native Applikationen oder Web-Applikationen mit GUI."
     }
   },
   "chartConfig": {
