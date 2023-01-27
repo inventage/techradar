@@ -4,11 +4,11 @@ ring:     assess
 quadrant: concepts-and-methods
 ---
 
-[Solid][solid] ist eine [Spezifikation][spez] der [W3C Solid Working Group][solid-working-group] für Systeme, welche es
-den Benutzern erlauben, ihre Daten in sicheren und dezentralen Speichern (Pods) zu halten. Dadurch behalten sie die
-Kontrolle über ihre eigenen Daten und stellen diese Anderen gezielt zur Verfügung. Die Verwendung von [Linked
+[Solid][solid] ist eine [Spezifikation][spez] der [W3C Solid Working Group][solid-working-group] für Systeme, die es
+Benutzern erlauben, ihre Daten in sicheren und dezentralen Speichern (Pods) zu halten. Dadurch behalten sie die
+Kontrolle über ihre eigenen Daten und stellen diese anderen gezielt zur Verfügung. Die Verwendung von [Linked
 Data][linked-data] und dessen standardisiertem Datenformat ermöglicht dabei die Verlinkung über die Grenzen eines Pod
-hinweg und bildet so die Grundlage des Sematic-Web. Dank dem gemeinsamen Datenformat (RDF) ist es zudem möglich, eine
+hinweg und bildet so die Grundlage des Semantic-Web. Dank dem gemeinsamen Datenformat (RDF) ist es möglich, eine
 Trennung der Daten von den sie bearbeitenden Applikationen zu erreichen.
 
 Wir beobachten mit grossem Interesse die Entwicklung von Solid, die immer stärker werdende Verbreitung (z.B. in Belgien,
