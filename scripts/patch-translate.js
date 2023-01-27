@@ -1,5 +1,10 @@
 const replace = require('replace-in-file')
 
+var buildPath = './build/'
+if (process.argv.length > 2) {
+  buildPath = process.argv[2];
+}
+
 const replacements = [
   {
     from: /Zoom In/g,
@@ -55,7 +60,7 @@ for (const index in replacements) {
   console.log('Replace:', replacements[index])
   
   const options = {
-    files: './build/static/js/*.js',
+    files: buildPath + 'static/js/*.js',
     from: replacements[index].from,
     to: replacements[index].to,
   };

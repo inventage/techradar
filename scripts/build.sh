@@ -7,5 +7,5 @@ set -a
 env | grep 'REACT\|PUBLIC' && npx aoe_technology_radar-buildRadar && npx aoe_technology_radar-generateJson && npx aoe_technology_radar-createStaticFiles
 set +a
 
-node ${SCRIPT_DIR}/patch-styles.js
-node ${SCRIPT_DIR}/patch-translate.js
+node ${SCRIPT_DIR}/patch-styles.js './build/'
+node ${SCRIPT_DIR}/patch-translate.js './build/'

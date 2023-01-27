@@ -1,5 +1,10 @@
 const replace = require('replace-in-file')
 
+var buildPath = './build/'
+if (process.argv.length > 2) {
+  buildPath = process.argv[2];
+}
+
 const replacements = [
   {
     from: /<\/head>/g,
@@ -11,7 +16,7 @@ for (const index in replacements) {
   console.log(replacements[index])
 
   const options = {
-    files: './build/index.html',
+    files: buildPath + '**/*.html',
     from: replacements[index].from,
     to: replacements[index].to,
   };
