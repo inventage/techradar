@@ -20,15 +20,19 @@ const replacements = [
   },
   {
     from: /How to use the/g,
-    to: 'Der'
+    to: ''
   },
   {
-    from: /How to use/g,
-    to: ''
+    from: /How to use"," ",We,"\?/g,
+    to: 'Unser "," ",We,"'
   },
   {
     from: /Technologies Overview/g,
     to: 'Technologie Übersicht'
+  },
+  {
+    from: /Quadrant Overview/g,
+    to: 'Quadrant-Übersicht'
   },
   {
     from: /"Search"/g,
@@ -36,11 +40,11 @@ const replacements = [
   },
   {
     from: /New in this version/g,
-    to: 'Neu im Radar aufgenommen'
+    to: 'Neu'
   },
   {
     from: /Recently changed/g,
-    to: 'Kürzlich geändert'
+    to: 'Verändert'
   },
   {
     from: /Unchanged/g,
