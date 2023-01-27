@@ -7,6 +7,14 @@ if (process.argv.length > 2) {
 
 const replacements = [
   {
+    from: /January_February_March_April_May_June_July_August_September_October_November_December/g,
+    to: 'Januar_Februar_März_April_Mai_Juni_Juli_August_September_Oktober_November_Dezember'
+  },
+  {
+    from: /Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec/g,
+    to: 'Jan_Feb_März_Apr_Mai_Juni_Juli_Aug_Sept_Okt_Nov_Dez'
+  },
+  {
     from: /Zoom In/g,
     to: 'Vergrössern'
   },
