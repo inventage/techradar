@@ -29,8 +29,8 @@
         "headline": "Quadranten und Ringe",
         "values": [
           "Mit dem Tech-Radar bilden die Technologie-Landschaft aus der Sicht von Inventage ab. Alle, aus unserer Sicht, erwähnenswerten Technologien werden anhand von zwei Dimensionen im Tech-Radar klassifiziert - in Quadranten und in Ringe.",
-          "Die Quadranten stehen für die verschiedenen Arten von Technologien. Die Zuweisung einer Technologie in einen Quadranten ist nicht immer eindeutig. Falls mehrere Quadranten in Frage kommen, entscheiden wir uns aus dem Bauch heraus.",
-          "Während die Einteilung in die Quadranten nur selten zu Diskussionen führt, ist die Wahl des Rings viel umstrittener. Der Ring zeigt an, wie gross unser Verständnis der Technologie ist und wie vielversprechend uns die Technologie erscheint."
+          "Die Quadranten stehen für die verschiedenen Arten von Technologien. Die Zuweisung einer Technologie in einen Quadranten ist nicht immer eindeutig. Falls mehrere Quadranten in Frage kommen, entscheiden wir uns dem Bauch heraus.",
+          "Während die Einteilung in die Quadranten nur selten zu Diskussionen führt, ist die Wahl des Rings viel umstrittener. Der Ring zeigt an, wie viel Erfahrung wir mit einer Technologie bereits haben und vor allem wie vielversprechend uns die Technologie erscheint."
         ]
       }
     ],
@@ -54,19 +54,19 @@
     ],
     "rings": [
       {
-        "name": "Verbreiten",
+        "name": "Adopt (Verbreiten)",
         "description": "Wir haben sehr gute Erfahrung gemacht und das Vertrauen in diese Technologie ist gross. Es besteht kein Zweifel, dass die Technologien sich bewährt hat und genügend ausgereift ist, um in unseren Projekten eingesetzt zu werden. Für einen bestimmten Anwendungsfall sehen wir sie als die beste Wahl an.<br/>Wir sind der festen Überzeugung, dass wir als Inventage diese Technologie in unseren Projekten einsetzen wollen."
       },
       {
-        "name": "Testen",
+        "name": "Trial (Testen)",
         "description": "Nach einer ersten Analyse hat sich gezeigt, dass die Technologie vielversprechend ist und es sich lohnt, sie weiter zu verfolgen und auf Probe in einem Projekt einzusetzen. Die Technologie ist aber noch nicht vollständig erprobt. Wir brauchen noch mehr Erfahrung, um uns eine klare Meinung zu bilden.<br/>Inventage sollte diese Technologie in einem Projekt ausprobieren, welches das Risiko tragen kann."
       },
       {
-        "name": "Abschätzen",
+        "name": "Assess (Abschätzen)",
         "description": "Wir haben von dieser Technologie gehört und wollen ihr Potenzial erforschen. Wirkliche Erfahrung haben wir mit der Technologie aber noch keine gesammelt.<br/>Als Inventage wollen wir verstehen, wie wir die Technologien in unseren Projekten einsetzten können. Dazu wollen wir uns genauer informieren. Erfahrungsberichte / Blogs lesen, Dokumentation studieren, ein Buch lesen, die Technologie in einem Pet-Projekt oder im Code-Camp ausprobieren."
       },
       {
-        "name": "Halten",
+        "name": "Hold (Halten)",
         "description": "Bei diesen Technologien ist Vorsicht geboten, wenn möglich in Zukunft vermeiden. Die Technologie ist fehlerhaft oder noch nicht ausgereift genug. Veraltete Technologien gehören auch in diesen Ring, es gibt inzwischen bessere Alternativen.<br/>Inventage verwendet diese Technologien noch in einigen Projekten, möchte sie aber in neuen Projekten nicht mehr einsetzen und längerfristig auch in älteren Projekten ersetzen."
       }
     ],
