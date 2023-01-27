@@ -13,7 +13,7 @@ implementiert ist, spielt dabei keine Rolle, solange die Standards und offiziell
 
 Für das Erstellen von Webkomponenten verwenden wir in den meisten Projekten die JavaScript-Bibliothek [Lit][lit] und
 haben damit schon ganze Applikationen implementiert. Für komplexe Applikationen sehen wir allerdings auch den Mehrwert
-von etablierten Frameworks wie [Angular][angular], weil darin schon viele Architekturkonzepte einer modernen Applikation
+von etablierten Frameworks wie [Angular][angular], weil darin viele Architekturkonzepte einer modernen Applikation
 umgesetzt sind und zur Verfügung gestellt werden.
 
 [web-components]: https://webcomponents.today/
