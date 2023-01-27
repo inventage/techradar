@@ -4,26 +4,21 @@ ring:     hold
 quadrant: libraries-frameworks-and-languages
 ---
 
-[Wicket][apache-wicket] ist ein serverseitiges, komponentenbasiertes Java-Web-Framework, welches von der Apache Software
-Foundation entwickelt wird. Auch bei Inventage haben wir das Framework in mehreren Projekten im Einsatz. In den letzten
-Jahren hat Wicket aber einige Konkurrenz durch andere Frameworks bekommen.
+[Wicket][apache-wicket] ist ein serverseitiges, komponentenbasiertes Java-Web-Framework, das von der Apache Software
+Foundation entwickelt wird. Als serverseitiges Web-Framework nutzt Wicket Ajax-Aufrufe zum Backend, um die
+UI-Komponenten dynamisch zu aktualisieren. Dadurch leidet oft die Benutzerfreundlichkeit der Web-Applikationen, da sich
+der ständige Datenaustausch mit dem Server schwerfällig anfühlt und die Möglichkeiten im UI eingeschränkter sind als bei
+modernen, clientseitigen Frontend-Frameworks. Aufgrund der sessionbasierten Funktionsweise ist der serverseitige
+Ressourcenverbrauch typischerweise höher als bei clientseitigen Frameworks, wo sich der Server auf das Bereitstellen
+schlanker REST-Services beschränkt. Dies macht Wicket gerade für Cloud-Anwendungen nicht unbedingt zur ersten Wahl.
+Zudem lassen sich [Web Components][web-components] mit Wicket nicht oder nur sehr mühsam entwickeln bzw. in die
+Applikation einbinden.
 
-Als serverseitiges Web-Framework nutzt Wicket Ajax Aufrufe ans Backend, um wiederverwendbare Komponenten zu entwickeln.
-Dadurch leidet aber oft die Benutzerfreundlichkeit der Web-Applikationen, da sich der ständige Datenaustausch mit dem
-Server schwerfällig anfühlt und die Möglichkeiten im UI stark eingeschränkt sind. Ausserdem wird in Frameworks mit einer
-besseren Trennung von Frontend zum Backend die CPU- und Arbeitsspeicherlast mehr auf das Frontend verschoben, was den
-Rechenaufwand im Backend reduziert und die Ressourcenanforderungen auf dem Server reduziert. Darum ist das Framework
-gerade in Cloud-Anwendungen nicht unbedingt die erste Wahl. Auch lassen sich [Web Components][web-components],
-wiederverwendbare Frontendkomponenten, mit Wicket gar nicht oder nur sehr mühsam entwickeln oder in die Applikation
-einbinden.
-
-Obwohl wir mit Wicket durchaus stabile Web-Applikationen entwickelt haben, wollen wir uns in Zukunft lieber auf andere
-modernere Web-Frameworks fokussieren. So setzen wir in unseren Projekten heute vermehrt [Quarkus][quarkus]
-oder [Spring Boot][spring-boot] im Backend und [Lit][lit] oder [Angular][angular] im Frontend ein.
+Bei Inventage haben wir Wicket in verschiedenen Projekten erfolgreich eingesetzt. Dennoch sind wir der Meinung,
+dass Wicket in den letzten Jahren mit der Entwicklung clientseitiger Web-Frameworks nicht mehr standhalten konnte.
+Deshalb setzen wir für neue Projekte auf [Angular][angular] oder [Lit][lit].
 
 [apache-wicket]: https://wicket.apache.org/
 [web-components]: ../concepts-and-methods/web-components.html
-[quarkus]: quarkus.html
-[spring-boot]: spring-boot.html
-[lit]: lit.html
-[angular]: angular.html
+[lit]: ../libraries-frameworks-and-languages/lit.html
+[angular]: ../libraries-frameworks-and-languages/angular.html
