@@ -11,6 +11,6 @@ auch Node.js Applikationen ausgeführt werden. Deno kann als Fundament für Task
 genutzt werden und hat das Potenzial [Node.js][node] abzulösen.
 
 [deno]: https://deno.land/
-[typescript]: typescript.html
-[javascript]: javascript.html
+[typescript]: ../libraries-frameworks-and-languages/typescript.html
+[javascript]: ../libraries-frameworks-and-languages/javascript.html
 [node]: https://nodejs.org/de/about/
