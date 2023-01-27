@@ -31,4 +31,4 @@ After a successful build, the static files are accessible in the `/build` direct
 
 ## Helper scripts
 
-Use [csv2md.js](./csv2md.js) to generate the blip markdown files from a csv export (see [2023-01-31.csv](./radar/2023-01-31.csv) for details on the required structure).
+Use [csv2md.js](./scripts/csv2md.js) to generate the blip markdown files from a csv export (see [2023-01-31.csv](./radar/2023-01-31.csv) for details on the required structure).
