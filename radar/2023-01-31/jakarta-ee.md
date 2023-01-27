@@ -6,23 +6,21 @@ quadrant: libraries-frameworks-and-languages
 
 [Jakarta EE][jakarta-ee], ehemals [Java EE][java-ee], ist eine Sammlung von Java-Technologien und Spezifikationen,
 welche für die Entwicklung von Unternehmensanwendungen verwendet werden. Unter anderem enthält Jakarta EE Technologien
-wie [Servlets][servlet] und [Jakarta Server Pages (JSP)][jsp] für die Erstellung von
-Web-Anwendungen, [Jakarta Enterprise Beans (EJB)][ejb] für die Verwaltung von Geschäftslogik und
-Transaktionen, [Jakarta Persistence API (JPA)][jpa] für die Verwaltung von
-Datenbankzugriffen, [Contexts and Dependency Injection (CDI)][cdi] für die Organisation von Anwendungskomponenten und
-ihren Abhängigkeiten, sowie [Jakarta API for RESTful Web Services (JAX-RS)][jax-rs] um Anwendungen über HTTP-basierte
-Schnittstellen zugänglich zu machen.
+wie [Servlets][servlet] und [Jakarta Server Pages][jsp] (JSP) für die Erstellung von Web-Anwendungen, [Jakarta
+Enterprise Beans][ejb] (EJB) für die Verwaltung von Geschäftslogik und Transaktionen, [Jakarta Persistence API][jpa]
+(JPA) für die Verwaltung von Datenbankzugriffen, [Contexts and Dependency Injection][cdi] (CDI) für die Organisation von
+Anwendungskomponenten und ihren Abhängigkeiten, sowie [Jakarta RESTful Web Services][jax-rs] (JAX-RS) für HTTP-basierte
+Schnittstellen.
 
-Jakarta EE-Anwendungen werden normalerweise in einer kompatiblen Anwendungsserverumgebung ausgeführt, welche die
-notwendigen Ressourcen und Services bereitstellt, um die Anwendungen auszuführen. Beispiele für solche Serverumgebungen
-sind [WildFly][wildfly] oder [GlassFish][glassfish]. Solche Anwendungsserverumgebungen haben hohe Anforderungen an die
-Ressourcen, welche für die Ausführung einer Jakarta EE-Anwendung erforderlich sind. Dadurch benötigen Jakarta
-EE-Anwendungen in der Cloud viel Ressourcen und sind teuer im Betrieb.
+Jakarta EE-Applikationen werden normalerweise in einem Applikationsserver ausgeführt, der den Applikationen die von der
+Spezifikation definierten Dienste bereitstellt (z.B. [WildFly][wildfly] oder [GlassFish][glassfish]). Durch ihren
+relativ hohen Ressourcenverbrauch sind solche Applikationsserver allerdings weniger gut geeignet, um als
+Cloud-Applikationen installiert zu werden.
 
-Bei Inventage setzen wir darum vermehrt auf [Quarkus][quarkus] und wollen uns von den traditionellen
-Anwendungsserverumgebungen lösen. Quarkus Applikationen basieren auf den gleichen Java-Technologien und Spezifikationen
-wie Jakarta EE, verfügen aber über eine deutlich schnellere Startzeit, sind ressourceneffizienter wodurch weniger CPU
-und Arbeitsspeicher benötigen wird und enthalten native Unterstützung für Cloud-native Funktionen.
+Bei Inventage setzen wir deshalb vermehrt auf [Quarkus][quarkus] und möchten uns von den traditionellen
+Applikationsserverumgebungen lösen. Quarkus-Applikationen können die selben bewährten Technologien und Spezifikationen
+verwenden wie von Jakarta EE vorgegeben, verfügen aber über eine deutlich schnellere Startzeit, sind
+ressourceneffizienter und enthalten Unterstützung für Cloud-native Funktionen.
 
 [jakarta-ee]: https://jakarta.ee/specifications/
 [java-ee]: https://javaee.github.io/
@@ -34,4 +32,4 @@ und Arbeitsspeicher benötigen wird und enthalten native Unterstützung für Clo
 [cdi]: https://jakarta.ee/specifications/cdi/
 [wildfly]: https://www.wildfly.org/
 [glassfish]: https://glassfish.org/
-[quarkus]: quarkus.html
+[quarkus]: ../libraries-frameworks-and-languages/quarkus.html
