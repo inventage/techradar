@@ -4,13 +4,15 @@ ring:     trial
 quadrant: libraries-frameworks-and-languages
 ---
 
-[Testcontainers][testcontainers] (for Java [1]) ist eine Bibliothek, welche die Verwendung von Docker Containern innerhalb von JUnit Tests
-vereinfacht. Wir verwenden Testcontainer unter anderem für die Realisierung von Integrationstests bei unseren
-Uniport-Projekten - z.B. um den Datenbankzugriffs-Layer zu testen. Weiter bietet [Quarkus][quarkus]
-eine sehr gute Integration von Testcontainers und der Einsatz bietet sich insbesondere bei allen unseren Quarkus
-basierten Projekten an.
+[Testcontainers][testcontainers] (for Java [1]) ist eine Bibliothek, welche die Verwendung von Docker-Containern
+innerhalb von JUnit-Tests ermöglicht. Wir verwenden Testcontainers unter anderem für die Realisierung von
+Integrationstests bei unseren [Uniport][uniport]-Projekten — z.B. um den Datenbankzugriffs-Layer zu testen.
+[Quarkus][quarkus] bietet eine sehr gute Integration von Testcontainers, sodass dessen Einsatz insbesondere bei unseren
+Quarkus-basierten Projekten nichts im Wege steht.
 
-[1] die Bibliothek gibt es auch für weitere Sprachen wie z.B. Go, Phython oder .NET
+[1] die Bibliothek gibt es auch für weitere Sprachen wie z.B. Go, Python oder .NET
 
 [testcontainers]: https://www.testcontainers.org/
-[quarkus]: https://quarkus.io/
+[quarkus]: ../libraries-frameworks-and-languages/quarkus.html
+[uniport]: https://uniport.ch/
+

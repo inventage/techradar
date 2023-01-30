@@ -23,23 +23,33 @@ body {
     font-family: "Open Sans", "Lato";
 }
 
+.logo-link__img {
+    margin-top: 10px;
+}
+
 .radar-grid {
-    color: var(--color-white)
+    color: var(--color-white);
 }
 .chart {
-    fill: var(--color-white)
+    fill: var(--color-white);
+}
+.chart .tooltip.place-top::before {
+    background-color: initial;  /* Fix tooltip text being partially hidden */
 }
 .quadrant-label .description {
-    color: var(--color-white)
+    color: var(--color-white);
 }
+
 .search__field {
-    background: var(--color-gray-dark-alt2)
+    font-family: "Open Sans", "Lato";
+    background: var(--color-gray-dark-alt2);
 }
 .search__field:focus {
     background: var(--color-gray-dark-alt);
 }
+
 .badge--all {
-    background: var(--color-gray-dark-alt)
+    background: var(--color-gray-dark-alt);
 }
 .item-page__content {
     background: #eeeeee;
@@ -52,5 +62,5 @@ body {
     font-weight: 700;
 }
 .markdown a:hover {
-    color: var(--color-gray-light)
+    color: var(--color-gray-light);
 }

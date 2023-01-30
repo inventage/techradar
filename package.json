@@ -2,13 +2,23 @@
   "name": "techradar",
   "version": "1.0.0",
   "scripts": {
+    "start": "run-p watch_build serve",
     "build": "./scripts/build.sh",
-    "dev": "http-server ./build"
+    "serve": "http-server ./build",
+    "watch_build": "npm-watch build"
+  },
+  "watch": {
+    "build": {
+      "patterns": [ "radar/**" ],
+      "extensions": "md"
+    }
   },
   "devDependencies": {
     "aoe_technology_radar": "~3.4.2",
     "csv-parser": "^3.0.0",
     "http-server": "^14.1.1",
+    "npm-run-all": "4.1.5",
+    "npm-watch": "0.11.0",
     "replace-in-file": "^6.3.5",
     "write": "^2.0.0"
   }

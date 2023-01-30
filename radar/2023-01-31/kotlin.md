@@ -13,8 +13,8 @@ bestehende Java-Projekte, womit sich Applikationen schrittweise modernisieren la
 
 Java als Plattform, auf die wir auch in Zukunft setzen möchten, hat sich für Enterprise-Applikationen über viele Jahre
 bestens bewährt. Durch das Commitment zur Rückwärtskompatibilität sind der Modernisierung von Java als
-Programmiersprache jedoch enge Grenzen gesteckt. Genau hier sehen wir grosses Potenzial in Kotlin, das beide Welten -
-bewährte Plattform und moderne Programmiersprache - in sich vereinen kann.
+Programmiersprache jedoch enge Grenzen gesteckt. Genau hier sehen wir grosses Potenzial in Kotlin, das beide Welten
+— bewährte Plattform und moderne Programmiersprache — in sich vereinen kann.
 
 [1]: Neben JVM-Bytecode kann Kotlin auch nach JavaScript oder nativen Programmdateien (MacOS, Windows, Linux) übersetzt
 werden.  

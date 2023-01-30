@@ -4,11 +4,13 @@ ring:     assess
 quadrant: libraries-frameworks-and-languages
 ---
 
-[Deno][deno] ist eine JavaScript, TypeScript und WebAssembly Runtime. APIs orientieren sich an Browser
-Standards. Somit kann der selbe Code sowohl im Browser als auch in Deno ausgeführt werden. Diverse APIs sind per Default
-deaktiviert, um unerlaubte Nutzungen und Zugriffe zu verhindern. Mittels compability mode können Packages aus der NPM
-Registry und Node Module APIs verwendet werden. Deno kann als Fundament für Task Runner, Utility Script und Web Services
-genutzt werden und und hat das Potential [Node.js][node] abzulösen.
+[Deno][deno] ist eine Laufzeitumgebung für [JavaScript][javascript] und [TypeScript][typescript]. APIs orientieren sich
+an Browser-Standards. Somit kann derselbe Code sowohl im Browser als auch in Deno ausgeführt werden. Diverse APIs sind
+standardmässig deaktiviert, um unerlaubte Nutzungen und Zugriffe zu verhindern. Mittels Node.js Compability Mode können
+auch Node.js Applikationen ausgeführt werden. Deno kann als Fundament für Task Runner, Utility Script und Web Services
+genutzt werden und hat das Potenzial [Node.js][node] abzulösen.
 
 [deno]: https://deno.land/
+[typescript]: ../libraries-frameworks-and-languages/typescript.html
+[javascript]: ../libraries-frameworks-and-languages/javascript.html
 [node]: https://nodejs.org/de/about/
