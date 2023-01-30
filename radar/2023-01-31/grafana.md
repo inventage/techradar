@@ -14,15 +14,9 @@ z.B. [Grafana Loki][grafana-loki] und [Grafana Tempo][grafana-tempo]) erlauben z
 bessere Korrelation der Daten über mehrere Services hinweg.
 
 [grafana]: https://grafana.com/grafana/
-
 [prometheus]: https://prometheus.io
-
 [influxdb]: https://www.influxdata.com
-
 [elasticsearch]: https://www.elastic.co
-
 [microservices]: ../concepts-and-methods/microservices.html
-
 [grafana-loki]: https://grafana.com/oss/loki/
-
 [grafana-tempo]: https://grafana.com/traces/
