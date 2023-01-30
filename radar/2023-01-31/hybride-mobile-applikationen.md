@@ -21,4 +21,4 @@ umsetzen kann. Updates an den Apps in den Stores müssen nur selten eingegeben w
 der Inhalte aus dem Web geladen wird. Zudem sind Erweiterungen und Integrationen der Web-Version mit der nativen Welt
 grundsätzlich möglich.
 
-[hybride-mobile-app]: https://www.insign.ch/services/web-und-mobile/mobile-apps/hybride-mobile-apps/
+[hybride-mobile-app]: https://www.brightsolutions.de/blog/native-vs-hybride-vs-web-app/
