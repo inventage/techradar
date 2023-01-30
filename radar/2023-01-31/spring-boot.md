@@ -8,7 +8,7 @@ quadrant: libraries-frameworks-and-languages
 zu erstellen und zu starten, indem viele der häufig verwendeten Konfigurationen und Abhängigkeiten automatisiert
 verwaltet werden. Dabei geht keine Flexibilität verloren, eine manuelle Konfiguration der verwendeten Komponenten ist
 jederzeit möglich. Spring Boot unterstützt zudem die Verwendung von modernen Technologien wie Cloud-Native-Architekturen
-und Containerisierung, wodruch es in den letzten Jahren an Popularität gewonnen hat und zu einem wichtigen Bestandteil
+und Containerisierung, wodurch es in den letzten Jahren an Popularität gewonnen hat und zu einem wichtigen Bestandteil
 des Java-Ökosystems geworden ist.
 
 [spring-boot]: https://spring.io/projects/spring-boot
