@@ -11,6 +11,6 @@ Client geschickt wird. Der Client fügt dann in einem Prozess, der Hydration gen
 Interaktivität hinzu.
 
 Die Inventage positioniert sich als Experte in allen Bereichen des Software Engineering. Dazu gehört auch die
-Frontend-Entwicklung, weshalb es Sinn macht, moderne Ansätze wie SSR zu beobachten und zu evaluieren. Konkret eingesetzt
+Frontend-Entwicklung, weshalb es sinnvoll ist, moderne Ansätze wie SSR zu beobachten und zu evaluieren. Konkret eingesetzt
 wird dieser Ansatz derzeit aber nur bei statischen Webseiten ohne Interaktivität.
 
