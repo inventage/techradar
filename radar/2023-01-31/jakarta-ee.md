@@ -18,7 +18,7 @@ relativ hohen Ressourcenverbrauch sind solche Applikationsserver allerdings weni
 Cloud-Applikationen installiert zu werden.
 
 Bei Inventage setzen wir deshalb vermehrt auf [Quarkus][quarkus] und möchten uns von den traditionellen
-Applikationsserverumgebungen lösen. Quarkus-Applikationen können die selben bewährten Technologien und Spezifikationen
+Applikationsserverumgebungen lösen. Quarkus-Applikationen können dieselben bewährten Technologien und Spezifikationen
 verwenden wie von Jakarta EE vorgegeben, verfügen aber über eine deutlich schnellere Startzeit, sind
 ressourceneffizienter und enthalten Unterstützung für Cloud-native Funktionen.
 
