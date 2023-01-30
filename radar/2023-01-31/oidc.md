@@ -17,4 +17,4 @@ OIDC geniesst inzwischen sehr breiten Support, nicht zuletzt von der Open-Source
 [oidc]: https://openid.net/connect/
 [openid]: https://openid.net/specs/openid-authentication-2_0.html
 [oauth]: https://oauth.net/2/
-[keycloak]: https://www.keycloak.org/
+[keycloak]: ../tools/keycloak.html

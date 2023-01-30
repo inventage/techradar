@@ -10,11 +10,11 @@ unsere Kunden profitieren. Durch Optimierungen, die Quarkus zur Build-Zeit vorni
 Applikationen zudem in den Genuss von schnellen Applikations-Starts, sowie einem niedrigen Bedarf an Speicher- und
 CPU-Ressourcen.
 
-Quarkus stellt für uns eine gute Alternative zu [Java EE][jee] dar. Aktuell realisieren wir mehrere Projekte basierend
+Quarkus stellt für uns eine gute Alternative zu [Jakarta EE][jakarta-ee] dar. Aktuell realisieren wir mehrere Projekte basierend
 auf Quarkus. Dabei entstehen Portal-Lösungen, Microservices im Openshift- bzw. [Kubernetes][kubernetes]-Umfeld oder auch
 monolithische Applikationen.
 
 [quarkus]: https://quarkus.io/
-[jee]: ../libraries-frameworks-and-languages/java-ee.html
+[jakarta-ee]: ../libraries-frameworks-and-languages/jakarta-ee.html
 [kubernetes]: ../platforms/kubernetes.html
 

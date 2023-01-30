@@ -17,7 +17,7 @@ erleichtert das gemeinsame Nutzen einzelner Requests oder ganzer Test-Suiten inn
 
 [insomnia]: https://insomnia.rest/
 [soap]: http://www.w3.org/TR/SOAP
-[graphql]: https://graphql.org/
+[graphql]: ../concepts-and-methods/graphql.html
 [grpc]: https://grpc.io/
 [curl]: https://curl.se/
 [postman]: ../tools/postman.html

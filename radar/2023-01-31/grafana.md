@@ -17,6 +17,6 @@ bessere Korrelation der Daten über mehrere Services hinweg.
 [prometheus]: https://prometheus.io
 [influxdb]: https://www.influxdata.com
 [elasticsearch]: https://www.elastic.co
-[microservices]: ../concepts-and-methods/microservices.html
+[microservices]: ../concepts-and-methods/microservice-architektur.html
 [grafana-loki]: https://grafana.com/oss/loki/
 [grafana-tempo]: https://grafana.com/traces/
