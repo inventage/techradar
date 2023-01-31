@@ -51,6 +51,9 @@ body {
 .badge--all {
     background: var(--color-gray-dark-alt);
 }
+.badge {
+    color: var(--color-gray-dark);
+}
 .item-page__content {
     background: #eeeeee;
 }
