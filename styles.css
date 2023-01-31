@@ -8,7 +8,7 @@
 
     --color-white: #333333; /* dark theme */
     --color-green: #9bc1b6; /* adopt */
-    --color-orange: #f9d9c4; /* trial */
+    --color-orange: #f0b995; /* trial */
     --color-blue: #54a5b1; /* assess, changed */
     --color-marine: #aaaaaa; /* hold */
     --color-red: #004996; /* new */
@@ -21,6 +21,10 @@
 
 body {
     font-family: "Open Sans", "Lato";
+}
+
+.hero-headline {
+    font-weight: 700;
 }
 
 .logo-link__img {
@@ -51,11 +55,14 @@ body {
 .badge--all {
     background: var(--color-gray-dark-alt);
 }
+.badge {
+    color: var(--color-gray-dark);
+}
 .item-page__content {
     background: #eeeeee;
 }
 .flag {
-    color: #fafafa;
+    color: var(--color-gray-dark);
 }
 
 .markdown a {
