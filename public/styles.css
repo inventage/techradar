@@ -23,6 +23,10 @@ body {
     font-family: "Open Sans", "Lato";
 }
 
+.hero-headline {
+    font-weight: 700;
+}
+
 .logo-link__img {
     margin-top: 10px;
 }
