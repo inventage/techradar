@@ -8,7 +8,7 @@
 
     --color-white: #333333; /* dark theme */
     --color-green: #9bc1b6; /* adopt */
-    --color-orange: #f9d9c4; /* trial */
+    --color-orange: #f0b995; /* trial */
     --color-blue: #54a5b1; /* assess, changed */
     --color-marine: #aaaaaa; /* hold */
     --color-red: #004996; /* new */
@@ -58,7 +58,7 @@ body {
     background: #eeeeee;
 }
 .flag {
-    color: #fafafa;
+    color: var(--color-gray-dark);
 }
 
 .markdown a {

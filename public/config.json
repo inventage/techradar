@@ -33,7 +33,7 @@
       "description": "Im Unterschied zu den Tools sind Libraries, Frameworks und Programmiersprachen Teil des Produkts und werden mit der Software selbst ausgeliefert. Es handelt sich um eine Art \"Runtime Artefakte\"."
     },
     "tools": {
-      "colour": "#f7c9aa",
+      "colour": "#f0b995",
       "txtColour": "#fafafa",
       "position": 4,
       "description": "Tools unterstützen uns bei der Arbeit. Sei das bei der Entwicklung der Software, bei der Installation von Software oder auch bei der Dokumentation von Software. Es können einfache Terminal basierte Tools sein oder aber native Applikationen oder Web-Applikationen mit GUI."
