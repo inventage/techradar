@@ -1,6 +1,6 @@
 # Inventage Tech-Radar
 
-This repository contains the Markdown files for the blips of the Inventage Tech-Radar. The radar can be found here: TODO
+This repository contains the Markdown files for the blips of the Inventage Tech-Radar. The radar can be found here: https://techradar.inventage.com
 
 This technology radar is based on AOE's Open Source generator: https://github.com/AOEpeople/aoe_technology_radar
 
