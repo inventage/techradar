@@ -4,9 +4,9 @@ ring:     adopt
 quadrant: concepts-and-methods
 ---
 
-[Microservices][microservices] sind ein Architekturstil, bei dem eine Anwendung als Sammlung kleiner, unabhängiger
+[Microservices][microservices] sind ein Architekturstil, bei dem eine Anwendung als Sammlung unabhängiger
 Dienste entwickelt wird, die zusammenarbeiten, um eine übergreifende Funktionalität anzubieten. Die einzelnen
-spezialisierten Dienste kommunizieren miteinander über Netzwerkaufrufe.
+spezialisierten Dienste kommunizieren miteinander über ein Nachrichtensystem, wie zum Beispiel [Kakfa][kafka].
 
 Bei Inventage erweitern wir die Definition von Microservices auf das Frontend. Ein Microservice besteht sowohl aus
 Micro-Backend, als auch aus [Micro-Frontend][martinfowler]. Mit den Micro-Frontends werden unabhängig voneinander
@@ -19,7 +19,7 @@ der Anwendung. Die Applikation lässt sich erweitern, indem neue Microservices e
 Architektur integriert werden.
 
 Unsere Erfahrung zeigt aber auch, dass Microservices bei der Entwicklung und Wartung zu einer erhöhten Komplexität
-führen. Einerseits aufgrund der Kommunikation der einzelnen Services über Netzwerkaufrufe, die möglicherweise die
+führen. Einerseits aufgrund der Kommunikation der einzelnen Services über Nachrichten, die möglicherweise die
 Verwaltung von Fehlern und die Überwachung von Leistungsproblemen erfordern. Andererseits aufgrund der expliziten
 Trennung des eigentlichen Codes, was Refactorings der Schnittstellen erschwert.
 
@@ -34,6 +34,7 @@ Lösung, wie eine Software umgesetzt werden kann. Eine Alternative zur Microserv
 [modulare Monolith][modularized-monolith], bei dem ein Monolith in austauschbare und wiederverwendbare Module
 unterteilt wird.
 
+[kafka]: ../platforms/kafka.html
 [microservices]: https://microservices.io/
 [martinfowler]: https://martinfowler.com/articles/micro-frontends.html
 [web-components]: ../concepts-and-methods/web-components.html
