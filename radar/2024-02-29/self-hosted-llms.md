@@ -15,7 +15,7 @@ werden können.
 
 Einerseits wollen wir die organisatorischen Möglichkeiten und Kosten für den Betrieb solcher LLMs abschätzen.
 Andererseits ist es uns wichtig zu untersuchen, wie gut die Qualität dieser Self-Hosted LLMs ist und ob sie in
-bestimmten Anwendungsfällen mit Konkurrenten wie OpenAI oder Bard mithalten können.
+bestimmten Anwendungsfällen mit Konkurrenten wie [ChatGPT][chatGPT] oder [Gemini][gemini] mithalten können.
 
 ___
 <small><sup>1</sup> Quantisierung ist eine Technik, um die Rechen- und Speicherkosten der Inferenz zu reduzieren, indem
@@ -26,3 +26,5 @@ und portablere Alternative zu den schwergewichtigen Frameworks.</small>
 
 [hugging-face]: https://huggingface.co/
 [ollama]: https://ollama.ai/
+[chatGPT]: https://chat.openai.com/
+[gemini]: https://gemini.google.com
