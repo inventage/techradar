@@ -4,4 +4,13 @@ ring:     adopt
 quadrant: concepts-and-methods
 ---
 
-TODO: Update schreiben.
+Das Konzept der [Hybriden Mobile Applikationen][hybride-mobile-app] konnten wir in diversen Kundenprojekten erfolgreich
+anwenden. Die eingesetzten Technologien für die Wrapper-Applikationen haben sich bewährt und sind inzwischen reif für
+produktiven Einsatz.
+
+Im Rahmen unserer Composite Application Plattform [Uniport][uniport] haben wir eine Lösung entwickelt, die
+viele beliebte Zusatzfeatures in einem Produkt bündelt und sich zu einer kundenspezifischen Lösung konfigurieren lässt.
+
+[hybride-mobile-app]: https://www.brightsolutions.de/blog/native-vs-hybride-vs-web-app/
+
+[uniport]: https://uniport.ch/
