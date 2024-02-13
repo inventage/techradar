@@ -6,7 +6,7 @@ quadrant: concepts-and-methods
 
 [Microservices][microservices] sind ein Architekturstil, bei dem eine Anwendung als Sammlung unabhängiger
 Dienste entwickelt wird, die zusammenarbeiten, um eine übergreifende Funktionalität anzubieten. Die einzelnen
-spezialisierten Dienste kommunizieren miteinander über ein Nachrichtensystem, wie zum Beispiel [Kakfa][kafka].
+spezialisierten Dienste kommunizieren miteinander über ein Nachrichtensystem, wie zum Beispiel [Kafka][kafka].
 
 Bei Inventage erweitern wir die Definition von Microservices auf das Frontend. Ein Microservice besteht sowohl aus
 Micro-Backend, als auch aus [Micro-Frontend][martinfowler]. Mit den Micro-Frontends werden unabhängig voneinander
