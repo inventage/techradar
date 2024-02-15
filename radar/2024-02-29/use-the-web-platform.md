@@ -4,17 +4,17 @@ ring:     adopt
 quadrant: concepts-and-methods
 ---
 
-Die Philosophie hinter "Use the web platform" hat zum Ziel robuste, wartungsfreundliche und performante Web
-Applikationen zu erstellen. Anstelle von schwergewichtigen Frameworks und Libraries kommen vorzugsweise HTML, CSS, JS
-und die Web API's zum Einsatz.
+Die Philosophie hinter "use the Web Platform" hat zum Ziel, robuste, wartungsfreundliche und performante
+Web-Applikationen zu erstellen. Anstelle von schwergewichtigen Frameworks und Libraries kommen vorzugsweise HTML, CSS,
+JavaScript und die Web-APIs zum Einsatz.
 
-Diese stetig umfangreicheren Web Fundamentals ermöglichen, was zuvor nur mit viel JavaScript oder Backend Technologien
-möglich war. Somit wird Aufwand und Komplexität reduziert und die Auslassung von höheren oder zusätzlichen
-Abstraktionsschichten, kommt der Flexibilität zu Gute.
+Diese stetig umfangreicheren Web-Fundamentals ermöglichen, was zuvor nur mit viel JavaScript oder Backend-Technologien
+möglich war. Somit wird der Aufwand und die Komplexität reduziert und die Auslassung von höheren oder zusätzlichen
+Abstraktionsschichten kommt der Flexibilität zugute.
 
-Der Aufwand um dutzende Frameworks und Libraries zu erlernen, welche dem selben Zweck dienen, wird primär in das
-Verständnis der eigentlichen Platform gesteckt. Dies kommt den Mitarbeitern und den Firmen zu Gute welche langlebigeres
-Wissen und Produkte erhalten.
+Der Aufwand, um dutzende Frameworks und Libraries zu erlernen, die demselben Zweck dienen, wird primär in das
+Verständnis der eigentlichen Platform gesteckt. Dies kommt den Mitarbeitern und den Firmen zugute, wodurch sie
+langlebigeres Wissen und Produkte erhalten.
 
-Man ist nicht mehr gebunden an einzelne Hersteller und spezifische Sprachen sondern baut direkt auf die Platform und die
-Best Practises der ganzen Community auf.
+Man ist nicht mehr gebunden an einzelne Hersteller und spezifische Sprachen, sondern baut direkt auf die Platform und
+den Best-Practises der ganzen Community auf.
