@@ -1,5 +1,5 @@
 ---
-title:    AI Assistent  
+title:    AI-Assistant  
 ring:     assess  
 quadrant: concepts-and-methods
 ---
