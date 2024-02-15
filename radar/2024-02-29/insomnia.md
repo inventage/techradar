@@ -4,10 +4,10 @@ ring:     hold
 quadrant: tools
 ---
 
-Leider hat sich Insomnia immer mehr von einer schlanken Anwendung zum Testen von APIs zu einer schwerfälligen Plattform
-entwickelt, ähnlich wie es bereits bei Postman der Fall war.
+Leider hat sich Insomnia immer mehr von einer schlanken Anwendung zu einer schwerfälligen Plattform entwickelt, ähnlich
+wie es bereits bei Postman der Fall war.
 
 Angesichts dieser Entwicklung haben wir beschlossen, Insomnia auf "Hold" zu setzen. Als vielversprechende Alternative
-streben wir an, in diesem Jahr das [IntelliJ HTTP Client Plugin][intellij-http-client-plugin] zu verwenden.
+bietet sich das [IntelliJ HTTP Client Plugin][intellij-http-client-plugin] an.
 
 [intellij-http-client-plugin]: ../tools/intellij-http-client-plugin.html
