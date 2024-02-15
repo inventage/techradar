@@ -11,7 +11,7 @@ Der Einsatz von AI ist jedoch nicht ohne Herausforderungen. Eine grosse Barriere
 nutzen zu können, müssen diese mit Daten gefüttert werden. Oft handelt es sich dabei um sensible oder geschützte Daten,
 deren Weitergabe und Nutzung nicht mit unseren Kundenverträgen vereinbar ist.
 
-Trotz dieser Herausforderungen bietet AI auch für uns als Inventage grosses Potenzial. Im diesem Jahr wollen wir uns
+Trotz dieser Herausforderungen bietet AI auch für uns als Inventage grosses Potenzial. Dieses Jahr möchten wir uns
 deshalb intensiv mit folgenden Themen beschäftigen:
 
 - [AI-Coding-Assistants][ai-coding-assistant] sollen die Softwareentwicklung effizienter machen und uns bei

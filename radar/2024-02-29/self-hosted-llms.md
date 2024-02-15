@@ -13,7 +13,7 @@ Durch den Einsatz von Self-Hosted LLMs versprichen wir uns eine Verbesserung des
 firmeneigenen Servern oder sogar lokal auf einem Laptop betrieben werden können, wodurch sie vollständig offline genutzt
 werden können.
 
-Einerseits wollen wir die organisatorischen Möglichkeiten und Kosten für den Betrieb solcher LLMs abschätzen.
+Einerseits möchten wir die organisatorischen Möglichkeiten und Kosten für den Betrieb solcher LLMs abschätzen.
 Andererseits ist es uns wichtig zu untersuchen, wie gut die Qualität dieser Self-Hosted LLMs ist und ob sie in
 bestimmten Anwendungsfällen mit Konkurrenten wie [ChatGPT][chatGPT] oder [Gemini][gemini] mithalten können.
 
