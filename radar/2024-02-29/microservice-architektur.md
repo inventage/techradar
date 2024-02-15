@@ -4,14 +4,20 @@ ring:     adopt
 quadrant: concepts-and-methods
 ---
 
-Unsere Erfahrungen des letzten Jahres bestärken uns im Einsatz von [Microservices][microservices]. Sie ermöglichen die
-effiziente Entwicklung und Testbarkeit komplexer Systeme durch die Aufteilung in unabhängige und überprüfbare Dienste.
+Unsere Erfahrungen des letzten Jahres bestärken uns im Einsatz von [Microservices][microservices]. Sie ermöglichen eine
+effiziente Entwicklung und gute Testbarkeit komplexer Systeme durch deren Aufteilung in unabhängige und überprüfbare
+Dienste.
 
-Die Koordination und Kommunikation zwischen den Diensten stellt jedoch eine Herausforderung dar. Es ist nicht zwingend
-notwendig, die Dienste so klein wie möglich zu gestalten, auch wenn der Begriff 'Microservice' dies suggerieren könnte.
-Es ist durchaus denkbar, dass ein System als Monolith startet und erst später in Microservices aufgeteilt wird. Durch
-die organische Aufteilung in einzelne Dienste lernt man das System besser kennen und erkennt, was zusammen gehört und
-was getrennt werden sollte. Eine solche organische Aufteilung minimiert die Herausforderungen und nutzt die Vorteile von
-Microservices.
+Die Koordination und Kommunikation zwischen den Diensten stellt jedoch eine Herausforderung dar. Jeder zusätzliche
+Microservice bedeutet ein Mehr an Komplexität, sowohl für den Betrieb als auch für die Entwicklung. Der Frage,
+welche Teile einer Applikation als eigenständige Dienste ausgeführt werden sollen, kommt deshalb eine grosse Bedeutung
+zu.
+
+Um die Anzahl der Dienste überschaubar zu halten, ist es nicht zwingend notwendig, diese so klein wie möglich zu
+gestalten, wie es der Begriff "Microservice" suggeriert. Zudem kann es sich als Vorteil erweisen, ein System erst als
+Monolith zu bauen, um es später in Microservices aufzuteilen. Da die einzelnen Dienste erst voneinander getrennt werden,
+wenn das System und dessen Anforderungen etwas besser bekannt sind, können voreilig gezogene Grenzen verhindert werden,
+welche den Betrieb und die Weiterentwicklung des Systems erschweren würden. Eine solch organischer Entwicklungsansatz
+minimiert die Herausforderungen und nutzt dennoch die Vorteile von Microservices.
 
 [microservices]: https://microservices.io/
