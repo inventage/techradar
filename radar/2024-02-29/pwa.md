@@ -4,12 +4,12 @@ ring: adopt
 quadrant: concepts-and-methods
 ---
 
-Eine [Progressive Web Application][pwa] (PWA) ist eine Applikation, die mit Web-Technologien gebaut ist, sich aber wie
-eine native Applikation anfühlt und auch wie eine solche aussieht.
+Eine [Progressive Web Application][pwa] (PWA) ist eine mit Web-Technologien gebaute Applikation, die sich wie eine
+native Applikation anfühlt und wie eine solche aussieht. Diese umfassen sowohl Desktop- als auch Mobile-Applikationen.
 
-Der grosse Vorteil solcher Applikationen ist, dass mit Web Technologien Features wie Offline-Fähigkeit,
-Background-Refresh oder Push-Notifications in einer Code-Basis implementiert und auf allen Plattformen eingesetzt werden
-können. Im Idealfall können bestehende Web-Applikationen zu einer PWA ausgebaut und das Benutzererlebnis so verbessert
-werden. 
+Der Vorteil von Applikationen ist, dass dank offener Web-Technologien Funktionen wie Offline-Fähigkeit,
+Background-Refresh oder Push-Notifikationen in einer einzigen Code-Basis implementiert und auf allen Plattformen
+eingesetzt werden können. Im Idealfall können bestehende Web-Applikationen zu einer PWA ausgebaut und das
+Benutzererlebnis so verbessert werden.
 
 [pwa]: https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
