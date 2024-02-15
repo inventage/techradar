@@ -2,20 +2,17 @@
 title:    Design System
 ring:     assess  
 quadrant: concepts-and-methods
-featured: false
 ---
 
-Wir haben in unseren Projekten die Erfahrung gesammelt, dass Design Tokens alleine in der Regel nicht ausreichen, um die
-Anforderungen an Konsistenz insbesondere bei Projekten im Umfeld von komplexeren Systemen abzudecken. Solche Systeme
-bestehen in der Regel aus mehreren Applikationen oder Produkten von verschiedenen Lieferanten.
+Wir haben in unseren Projekten die Erfahrung gemacht, dass Design-Tokens allein häufig nicht ausreichen, um die
+Konsistenzanforderungen, insbesondere bei Projekten im Umfeld komplexer Systeme, abzudecken. Solche Systeme bestehen in
+der Regel aus mehreren Applikationen oder Produkten verschiedener Lieferanten.
 
-Design Tokens helfen hier zwar bei der Basis solcher Applikationen wie Farben, Grössen oder Schriften. Ziemlich rasch
-landet man allerdings dann bei der nächstgrösseren Instanz von wiederverwendbaren Komponenten wie Buttons, Badges oder
-Formularelementen. Damit nicht jede dieser Applikationen diese wiederverwendbaren Elemente nachbauen muss, sollten diese
-durch ein Design System bereitgestellt werden.
+Design-Tokens geben wiederverwendbare Elemente wie Farben, Grössen oder Schriften vor. Ziemlich rasch landet man
+allerdings bei der nächstgrösseren Instanz wiederverwendbarer Komponenten wie Buttons, Badges oder Formularelementen.
+Damit nicht jede Applikation diese Elemente nachbauen muss, können sie durch ein Design-System bereitgestellt werden.
 
-Ein Design System stellt neben Design Tokens auch solche wiederverwendbaren Komponenten bereit. Jede Komponente wird mit
-der Kapselung von Layout und Logik und einer wohldefinierten API für Anpassungen zur Verfügung gestellt. Ein solches
-System kann Schritt für Schritt aufgebaut und mit der Zeit erweitert und geschärft werden. Mittel- bis langfristig
-profitiert nicht nur der Benutzer von einem einheitlichen Erlebnis, sondern sowohl die Design- als auch die Code-Welt
-von solchen Baukastensystemen.
+Die bereitgestellten Komponenten kapseln sowohl Layout als auch Logik. Anpassungen werden über eine wohldefinierte API
+ermöglicht. Ein solches System kann Schritt für Schritt aufgebaut und erweitert werden. Mittel- bis langfristig
+profitiert nicht nur der Benutzer von einem einheitlichen Erlebnis, sondern auch die Design- und Code-Welt von einem
+wiederverwendbaren Baukastensystem.
