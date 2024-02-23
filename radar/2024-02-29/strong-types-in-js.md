@@ -4,8 +4,8 @@ ring: assess
 quadrant: concepts-and-methods
 ---
 
-In der sich schnell weiterentwickelnden Landschaft von JavaScript ist es eine Herausforderung, Codekorrektheit und
--wartbarkeit sicherzustellen, insbesondere bei Projekten mit zunehmender Grösse und Komplexität. Während
+In der schnelllebigen Welt von JavaScript ist es eine Herausforderung, die Korrektheit und Wartbarkeit des Codes 
+sicherzustellen, insbesondere bei Projekten mit zunehmender Größe und Komplexität. Während
 [TypeScript][typescript] robuste, statische Typenprüfung für JavaScript bietet, erhöht sich, je nach eingesetztem
 Framework, der Entwicklungsaufwand und die Komplexität des Builds erheblich. Hier könnte [JSDoc][jsdoc] als eine Art
 Mittelweg zwischen reinem JavaScript und TypeScript eine Alternative bieten.
