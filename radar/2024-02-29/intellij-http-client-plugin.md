@@ -10,7 +10,7 @@ Plugin][intellij-http-client-plugin]. Es bietet die Möglichkeit, HTTP-Requests 
 JavaScript die Korrektheit der Response zu überprüfen. Durch die nahtlose Integration in IntelliJ IDEA können die APIs
 direkt aus der IDE angesprochen werden.
 
-IntelliJ IDEA bietet als Ergänzung zum Plugin das [HTTP Client CLI][http-client-cli] an. Dieses erlaubt das Ausführen
+Als Ergänzung zum Plugin bietet IntelliJ IDEA das [HTTP Client CLI][http-client-cli] an. Dieses erlaubt das Ausführen
 der konfigurierten HTTP-Requests von der Kommandozeile, was insbesondere zur Automatisierung der Tests in
 Build-Pipelines von [CI/CD-Umgebungen][ci-cd] wichtig ist.
 
