@@ -9,14 +9,14 @@ effiziente Entwicklung und gute Testbarkeit komplexer Systeme durch deren Auftei
 Dienste.
 
 Die Koordination und Kommunikation zwischen den Diensten stellt jedoch eine Herausforderung dar. Jeder zusätzliche
-Microservice bedeutet ein Mehr an Komplexität, sowohl für den Betrieb als auch für die Entwicklung. Der Frage,
+Microservice bedeutet ein Mehr an Komplexität, sowohl im Betrieb als auch in der Entwicklung. Der Frage,
 welche Teile einer Applikation als eigenständige Dienste ausgeführt werden sollen, kommt deshalb eine grosse Bedeutung
 zu.
 
 Um die Anzahl der Dienste überschaubar zu halten, ist es nicht zwingend notwendig, diese so klein wie möglich zu
-gestalten, wie es der Begriff "Microservice" suggeriert. Zudem kann es sich als Vorteil erweisen, ein System erst als
+gestalten, wie es der Begriff "Microservice" suggeriert. Es kann sich auch als Vorteil erweisen, ein System zunächst als
 Monolith zu bauen, um es später in Microservices aufzuteilen. Da die einzelnen Dienste erst voneinander getrennt werden,
-wenn das System und dessen Anforderungen etwas besser bekannt sind, können voreilig gezogene Grenzen verhindert werden,
+wenn das System und dessen Anforderungen etwas besser bekannt sind, können voreilig gezogene Grenzen vermieden werden,
 welche den Betrieb und die Weiterentwicklung des Systems erschweren würden. Eine solch organischer Entwicklungsansatz
 minimiert die Herausforderungen und nutzt dennoch die Vorteile von Microservices.
 
