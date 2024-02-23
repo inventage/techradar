@@ -5,14 +5,12 @@ quadrant: concepts-and-methods
 ---
 
 Self-hosted LLMs bieten eine Alternative für den Betrieb von Large-Language-Models, die keine umfangreiche
-GPU-Infrastruktur voraussetzen. Durch Techniken wie Quantisierung<sup>1</sup> und Projekten wie
+GPU-Infrastruktur voraussetzen. Durch Techniken wie Quantisierung<sup>1</sup> und Projekte wie
 [llama.cpp][llamaCpp]<sup>2</sup> können LLMs auf handelsüblicher Hardware mit reduziertem Speicherbedarf ausgeführt
 werden. Über Plattformen wie [Hugging Face][huggingFace] oder [Ollama][ollama] können LLMs bezogen und lokal ausgeführt
 werden.
 
-Durch den Einsatz von Self-hosted LLMs versprechen wir uns eine Verbesserung des Datenschutzes, da diese entweder auf
-firmeneigenen Servern oder gar lokal auf einem Laptop betrieben werden können, wodurch sie vollständig offline genutzt
-werden können.
+Durch den Einsatz von Self-hosted LLMs streben wir eine Verbesserung des Datenschutzes an, denn diese können entweder auf firmeneigenen Servern oder lokal auf einem Laptop betrieben werden und somit vollständig offline genutzt werden.
 
 Einerseits möchten wir die organisatorischen Möglichkeiten und Kosten für den Betrieb solcher LLMs abschätzen.
 Andererseits ist es uns wichtig zu untersuchen, wie gut die Qualität dieser Self-hosted LLMs ist und ob sie in
