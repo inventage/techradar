@@ -4,10 +4,10 @@ ring:     trial
 quadrant: concepts-and-methods
 ---
 
-Artificial Intelligence (AI) ist nach wie vor eines der dominierenden IT-Themen. Unzählige neue Dienstleistungen und
-Produkte wurden mithilfe von AI im letzten Jahr in verschiedenen Bereichen entwickelt.
+Artificial Intelligence (AI) bleibt eines der dominierenden IT-Themen. Im letzten Jahr wurden unzählige neue Dienstleistungen und
+Produkte in verschiedenen Bereichen mithilfe von AI entwickelt.
 
-Der Einsatz von AI bringt jedoch seine eigenen Herausforderungen mit, wobei wir die Gewährleistung des Datenschutzes als
+Der Einsatz von AI bringt jedoch seine eigenen Herausforderungen mit sich, wobei wir die Gewährleistung des Datenschutzes als
 eine der grössten Hürden sehen. Um AI-Systeme zu nutzen, müssen diese mit Daten gefüttert werden. Diese sind in unserem
 Projektumfeld jedoch oft sensibel bzw. geschützt. Somit ist deren Weitergabe in jeglicher Form, z.B. durch die Anbindung
 eines Cloud-basierten AI-Produkts, höchst problematisch und nicht mit unseren Kundenverträgen vereinbar.
@@ -20,7 +20,7 @@ deshalb intensiv mit folgenden Themen beschäftigen:
 - Lokal betriebene [Self-hosted LLMs][self-hosted-llm] könnten eine Lösung für die Herausforderung des Datenschutzes
   sein.
 - Die [LangChain4j][langchain4j]-Bibliothek ermöglicht die Integration von LLMs mit Java, was die Entwicklung
-  AI-basierter Anwendungen vereinfacht.
+  von AI-basierten Anwendungen vereinfacht.
 
 [ai-coding-assistant]: ../concepts-and-methods/ai-assistant.html
 [self-hosted-llm]: ../concepts-and-methods/self-hosted-llms.html
