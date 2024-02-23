@@ -5,7 +5,7 @@ quadrant: libraries-frameworks-and-languages
 ---
 
 Microservices haben sich als eine führende architektonische Technik in modernen Cloud-basierten Systemen etabliert. Wir
-plädieren jedoch dafür, dass Teams die Entscheidung zu dieser Architektur sorgfältig treffen sollten. Die zusätzliche
+empfehlen jedoch, dass Teams die Entscheidung für diese Architektur sorgfältig abwägen sollten. Die zusätzliche
 operative Komplexität muss durch eine entsprechende Reduktion der Entwicklungskomplexität kompensiert werden, was bei
 kleineren oder neuen Projekten oft nicht der Fall ist.
 
