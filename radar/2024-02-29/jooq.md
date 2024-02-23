@@ -4,10 +4,10 @@ ring:     trial
 quadrant: libraries-frameworks-and-languages
 ---
 
-Bisher wurde [jOOQ][jooq] bei Inventage noch in keinem Projekt eingesetzt, wir sehen jedoch einige vielversprechende
+Bisher wurde [jOOQ][jooq] bei Inventage noch in keinem Projekt eingesetzt. Wir sehen jedoch einige vielversprechende
 Anwendungsfälle:
 
-- Als Backend für GraphQL-APIs, um aufgrund von GraphQQL-Queries dynamische SQL-Queries zusammenzustellen.
+- Als Backend für GraphQL-APIs, um ausgehend von GraphQQL-Queries dynamische SQL-Queries zusammenzustellen.
 - Für die Ablösung von Legacy-Technologien, die nur schwer auf JPA oder ähnliche Technologien umgestellt werden können.
 - Als Grundlage für ein neues Regelwerk, um Datenbank-Zugriffe mit rollenbasierten Filterkriterien automatisch zu
   schützen, ähnlich unserer bewährten SecurityEngine.
