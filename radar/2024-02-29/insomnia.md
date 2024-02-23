@@ -4,7 +4,7 @@ ring:     hold
 quadrant: tools
 ---
 
-Leider hat sich Insomnia immer mehr von einer schlanken Anwendung zu einer schwerfälligen Plattform entwickelt, ähnlich
+Leider hat sich Insomnia zunehmend von einer schlanken Anwendung zu einer schwerfälligen Plattform entwickelt, ähnlich
 wie es bereits bei Postman der Fall war.
 
 Angesichts dieser Entwicklung haben wir beschlossen, Insomnia auf "Hold" zu setzen. Als vielversprechende Alternative
