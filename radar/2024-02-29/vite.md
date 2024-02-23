@@ -8,14 +8,14 @@ quadrant: tools
 TypeScript-Applikationen. [ESM][esm], [HMR][hmr] und [Dependency-Pre-Bundling][dependency-pre-building] garantieren
 schnelle Kaltstarts und Reloads, indem die Arbeitslast für Dev-Server und Browser reduziert wird.
 
-Das auf [Rollup][rollup] basierte Plugin-System erlaubt eine einfache Konfiguration und vielseitige Erweiterung, ohne
+Das Plugin-System, welches auf [Rollup][rollup] basiert, ermöglicht eine einfache Konfiguration und vielseitige Erweiterung, ohne
 diese zu erzwingen oder die Weiterentwicklung des Core zu hemmen. Ein florierendes Eco-System ist entstanden, welches
 Perlen wie [Zero Config PWA][zero-config-pwa] hervorgebracht hat. Diverse Template-Engines und Frameworks werden
 out-of-the-box unterstützt.
 
-Besonders schätzen wir die Kickstarter-Templates ([Native][native] und [Community][community]), die innerhalb einer
+Wir schätzen besonders die Kickstarter-Templates ([Native][native] und [Community][community]), die innerhalb von einer
 Minute vollständige Entwicklungsumgebungen für Web-Applikationen bereitstellen. Um etwas kurz auszuprobieren, muss nicht
-online eine REPL aufgerufen werden und kann stattdessen die gewohnten Features der eigenen IDE nutzen.
+online eine REPL aufgerufen werden. Stattdessen kann man die gewohnten Features der eigenen IDE nutzen.
 
 Vites Philosophie "[Pushing the Modern Web][pushing-the-modern-web]" passt zu unseren Blips
 [Use the Web Platform][use-the-web-platform] und [Buildless Web Development][buildless-web-development].
