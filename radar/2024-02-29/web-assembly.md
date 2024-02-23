@@ -5,8 +5,8 @@ quadrant: platforms
 ---
 
 Mit [WASI][wasi] gibt es Bestrebungen, WebAssembly als Technologie für Server-Workloads zu etablieren. Die Integration
-von WebAssembly-Runtimes in Container-Technologien wie Docker und OpenShift versprechen leichtgewichtige und portable
-Anwendungen, die "serverless" ausgeführt werden können.<sup>1,2</sup> Wie relevant diese Technologien für Inventage
+von WebAssembly-Runtimes in Container-Technologien wie Docker und OpenShift verspricht leichtgewichtige und portable
+Anwendungen, die serverless ausgeführt werden können.<sup>1,2</sup> Wie relevant diese Technologien für Inventage
 sind, bleibt abzuwarten.
 
 ____
