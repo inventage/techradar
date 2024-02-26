@@ -14,7 +14,7 @@ Frameworks out-of-the-box unterstützt. Besonders gut gefallen uns die Kickstart
 erstellen.
 
 Ausserdem passt Vites Philosophie "[Pushing the Modern Web][pushing-the-modern-web]" zu unseren Einschätzungen zu
-[Modern Web APIs][use-the-web-platform] und [Buildless Web Development][buildless-web-development].
+[Modern Web APIs][modern-web-apis] und [Buildless Web Development][buildless-web-development].
 
 ___
 
@@ -23,5 +23,5 @@ ___
 [native]: https://github.com/vitejs/vite/tree/main/packages/create-vite
 [community]: https://github.com/vitejs/awesome-vite#templates
 [pushing-the-modern-web]: https://vitejs.dev/guide/philosophy.html#pushing-the-modern-web
-[use-the-web-platform]: ../concepts-and-methods/use-the-web-platform.html
+[modern-web-apis]: ../concepts-and-methods/modern-web-apis.html
 [buildless-web-development]: ../concepts-and-methods/buildless-web-development.html

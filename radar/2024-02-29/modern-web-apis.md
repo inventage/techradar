@@ -1,5 +1,5 @@
 ---
-title:    Use the Web Platform
+title:    Modern Web APIs
 ring:     adopt
 quadrant: concepts-and-methods
 ---
