@@ -4,21 +4,25 @@ ring:     trial
 quadrant: tools
 ---
 
-[Vite][vite] ist ein schneller Dev-Server und vielfältig konfigurierbarer Bundler für JavaScript- und
-TypeScript-Applikationen. [ESM][esm], [HMR][hmr] und [Dependency-Pre-Bundling][dependency-pre-building] garantieren
-schnelle Kaltstarts und Reloads, indem die Arbeitslast für Dev-Server und Browser reduziert wird.
+Die schnellen Kaltstarts und Reloads<sup>1</sup> von [Vite][vite] haben uns überzeugt, diesen Dev-Server und Bundler
+weiterzuverfolgen. Über das Plugin-System von Vite können wir uns das Tool leicht auf unsere Bedürfnisse anpassen
+<sup>2</sup>.
 
-Das Plugin-System, welches auf [Rollup][rollup] basiert, ermöglicht eine einfache Konfiguration und vielseitige Erweiterung, ohne
-diese zu erzwingen oder die Weiterentwicklung des Core zu hemmen. Ein florierendes Eco-System ist entstanden, welches
-Perlen wie [Zero Config PWA][zero-config-pwa] hervorgebracht hat. Diverse Template-Engines und Frameworks werden
-out-of-the-box unterstützt.
+Rund um dieses Plugin-System ist ein aktives Ökosystem entstanden, aus dem unter anderem das vielversprechende
+Projekt [Zero Config PWA][zero-config-pwa] entstanden ist. Durch die aktive Community werden verschiedene
+Template-Engines und Frameworks out-of-the-box unterstützt. Besonders gut gefallen uns die
+Kickstarter-Templates ([Native][native] und [Community][community]). Damit lassen sich innerhalb kürzester Zeit
+komplette Entwicklungsumgebungen für Webanwendungen erstellen.
 
-Wir schätzen besonders die Kickstarter-Templates ([Native][native] und [Community][community]), die innerhalb von einer
-Minute vollständige Entwicklungsumgebungen für Web-Applikationen bereitstellen. Um etwas kurz auszuprobieren, muss nicht
-online eine REPL aufgerufen werden. Stattdessen kann man die gewohnten Features der eigenen IDE nutzen.
+Ausserdem passt Vites Philosophie "[Pushing the Modern Web][pushing-the-modern-web]" zu unseren Einschätzungen zu
+[Modern Web APIs][use-the-web-platform] und [Buildless Web Development][buildless-web-development].
 
-Vites Philosophie "[Pushing the Modern Web][pushing-the-modern-web]" passt zu unseren Blips
-[Use the Web Platform][use-the-web-platform] und [Buildless Web Development][buildless-web-development].
+___
+
+<small><sup>1</sup> Ermöglicht wird dies durch Technologien wie [ESM][esm], [HMR][hmr]
+und [Dependency-Pre-Bundling][dependency-pre-building], welche die Arbeitslast für Dev-Server und Browser
+reduzieren.</small><br>
+<small><sup>2</sup> Basierend auf [Rollup][rollup].</small>
 
 [vite]: https://vitejs.dev
 [esm]: https://vitejs.dev/guide/why.html#slow-server-start
