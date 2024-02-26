@@ -4,7 +4,7 @@ ring: assess
 quadrant: libraries-frameworks-and-languages
 ---
 
-Bei der Integration eines Sprachmodells (LLMs) in eine Applikation, muss diese die KI mit natürlicher Sprache steuern.
+Bei der Integration eines Sprachmodells (LLMs) in eine Applikation, muss diese die AI mit natürlicher Sprache steuern.
 Dabei sollten nicht nur Informationen innerhalb des Sprachmodells, sondern auch aus dem Kontext der Applikation genutzt werden können. Um diese Aufgaben zu vereinfachen, bietet [LangChain4j][langchain4j] zwei 
 Mechanismen an: Tools und Document-Stores.
 
