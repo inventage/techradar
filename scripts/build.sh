@@ -10,3 +10,4 @@ set +a
 node ${SCRIPT_DIR}/patch-styles.js './build/'
 node ${SCRIPT_DIR}/patch-translate.js './build/'
 #node ${SCRIPT_DIR}/patch-flag.js './build/'
+node ${SCRIPT_DIR}/patch-description.js './build/'
