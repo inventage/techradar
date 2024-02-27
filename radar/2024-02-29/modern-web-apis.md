@@ -4,7 +4,7 @@ ring:     adopt
 quadrant: concepts-and-methods
 ---
 
-Die Philosophie hinter "use the Web Platform" hat zum Ziel, robuste, wartungsfreundliche und performante
+Die Philosophie hinter "Modern Web APIs" hat zum Ziel, robuste, wartungsfreundliche und performante
 Web-Applikationen zu erstellen. Anstelle von schwergewichtigen Frameworks und Libraries kommen vorzugsweise HTML, CSS,
 JavaScript und die Web-APIs zum Einsatz.
 
