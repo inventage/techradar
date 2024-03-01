@@ -1,5 +1,5 @@
 ---
-title:    Hybride Mobile Applikationen  
+title:    Hybride mobile Applikationen  
 ring:     trial  
 quadrant: concepts-and-methods
 ---

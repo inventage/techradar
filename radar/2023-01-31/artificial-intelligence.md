@@ -4,7 +4,7 @@ ring:     assess
 quadrant: concepts-and-methods
 ---
 
-Unter Artificial Intellgence (AI) versteht man menschliches Lernen und Denken auf Computer zu übertragen. Mit
+Unter Artificial Intelligence (AI) versteht man menschliches Lernen und Denken auf Computer zu übertragen. Mit
 [GPT-3][gpt-3], [DALL-E][dall-e] und [Stable Diffusion][stable-diff] wurden im letzten Jahr Deep-Learning-Modelle
 entwickelt, die bereits so ausgereift sind, dass darauf Produkte entwickelt werden können. AI wird in Zukunft mit
 Sicherheit eine grosse Rolle in der Digitalisierung spielen. Als Inventage wollen wir herausfinden, was diese
