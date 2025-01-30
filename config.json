@@ -11,12 +11,12 @@
   },
   "sections": ["radar", "tags", "list"],
   "colors": {
-    "foreground": "#fafafa",
-    "background": "#004996",
-    "highlight": "#029df7",
-    "content": "#fafafa",
-    "text": "#575757",
-    "link": "#029df7",
+    "foreground": "#333333",
+    "background": "#fafafa",
+    "highlight": "#0a7f90",
+    "content": "#eeeeee",
+    "text": "#333333",
+    "link": "#0a7f90",
     "border": "rgba(255, 255, 255, 0.1)",
     "tag": "rgba(255, 255, 255, 0.1)"
   },
@@ -82,13 +82,13 @@
   ],
   "flags": {
     "new": {
-      "color": "#f1235a",
+      "color": "#b3c8e0",
       "title": "Neu",
       "titleShort": "N",
       "description": "Neu in dieser Version"
     },
     "changed": {
-      "color": "#40a7d1",
+      "color": "#fdefe6",
       "title": "Verändert",
       "titleShort": "V",
       "description": "Kürzlich verändert"
@@ -118,7 +118,7 @@
     "zoomIn": "Vergrössern",
     "filterByTag": "Nach Tag filtern",
     "footer": "Seit 2000 bauen wir bei Inventage massgeschneiderte, digitale Lösungen für unsere Kunden — und wir lieben es! Wir setzen Individuallösungen im Digital Banking mit modernsten Web-Technologien und Open-Source-Komponenten um.",
-    "notUpdated": "Nicht aktualisiert.",
+    "notUpdated": "Dieser Punkt wurde in den letzten drei Versionen des Radars nicht aktualisiert. Sollte er in einer der jüngeren Ausgaben erschienen sein, besteht eine gute Chance, dass er weiterhin relevant ist. Liegt der Artikel jedoch weiter zurück, hat seine Relevanz möglicherweise abgenommen und unsere aktuelle Bewertung könnte sich ändern. Bedauerlicherweise sind unsere Möglichkeiten, Artikel aus früheren Ausgaben des Radars immer wieder zu überprüfen, begrenzt.",
     "notFound": "404 - Seite nicht gefunden",
     "pageAbout": "Unser Tech-Radar",
     "pageOverview": "Technologie Übersicht",
