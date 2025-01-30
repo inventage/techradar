@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "run-p watch_build serve",
-    "build": "./scripts/build.sh",
-    "serve": "http-server ./build",
+    "build": "techradar build",
+    "serve": "techradar serve",
     "watch_build": "npm-watch build"
   },
   "watch": {
@@ -14,7 +14,7 @@
     }
   },
   "devDependencies": {
-    "aoe_technology_radar": "3.6.0",
+    "aoe_technology_radar": "^4",
     "csv-parser": "^3.0.0",
     "http-server": "^14.1.1",
     "npm-run-all": "4.1.5",
