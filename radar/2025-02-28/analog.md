@@ -6,12 +6,8 @@ quadrant: libraries-frameworks-and-languages
 
 Das Meta-Framework Analog baut auf dem Frontend-Framework Angular auf und erweitert es um zusätzliche Funktionalitäten.
 
-Die Ladezeit einer App wird verbessert indem Rechenzeit vom Client auf den Server verlagert wird.
+Die Ladezeit einer App wird verbessert, indem Rechenzeit vom Client auf den Server verlagert wird. Mittels Server-Side-Rendering und Static-Site-Generator werden statische Fragmente der Applikation vorbereitet und zwischengespeichert. Diese können vor der ersten Übertragung mit dynamischen Daten ergänzt oder zu einem späteren Zeitpunkt aktualisiert werden. Dies bringt auch Vorteile für SEO und WCAG (Web-Content-Accessibility-Guidelines), da die Seiten sofort vollständig interpretierbar sind.
 
-Mittels Server-side rendering und Static site generator werden statische Fragmente der Applikation vorbereitet und zwischengespeichert.
+Anlog basiert auf [Vite][vite] und Nitro und ist mit Astro kompatibel. Dadurch ist JavaScript die primäre Programmiersprache, sowohl für die Entwicklungsumgebung als auch für die Business-Logik.
 
-Diese Fragmente können vor der ersten Übertragung mit dynamischen Daten ergänzt werden oder zu einem späteren Zeitpunkt aktualisiert werden.
-
-Dies hat auch Vorteile für SEO und WCAG, da die Pages sofort vollständig interpretierbar sind.
-
-Bedeutsam ist auch, dass Anlog auf Vite und Nitro aufsetzt und mit Astro kompatibel ist. Somit ist die primär Programmiersprache JavaScript, sowohl für die Entwicklungsumgebung als auch für die Business-Logik.
+[vite]: /tools/vite
