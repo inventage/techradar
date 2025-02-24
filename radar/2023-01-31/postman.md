@@ -11,4 +11,4 @@ verwenden ist als beispielsweise `curl`, gestaltet sich die systematische und ko
 Strategisch setzen wir deshalb auf das vergleichbare, aber für uns besser geeignete Tool [Insomnia][insomnia].
 
 [postman]: https://www.postman.com/
-[insomnia]: ../tools/insomnia.html
+[insomnia]: /tools/insomnia

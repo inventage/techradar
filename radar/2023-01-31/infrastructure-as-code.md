@@ -15,5 +15,5 @@ schneller und reproduzierbarer bereitgestellt werden.
 [iac]: https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac
 [snowflake]: https://martinfowler.com/bliki/SnowflakeServer.html
 [terraform]: https://www.terraform.io/
-[cicd]: ../concepts-and-methods/ci-cd.html
+[cicd]: /concepts-and-methods/ci-cd
 

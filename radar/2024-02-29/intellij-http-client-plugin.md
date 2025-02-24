@@ -14,8 +14,8 @@ Als Ergänzung zum Plugin bietet IntelliJ IDEA das [HTTP Client CLI][http-client
 der konfigurierten HTTP-Requests von der Kommandozeile, was insbesondere zur Automatisierung der Tests in
 Build-Pipelines von [CI/CD-Umgebungen][ci-cd] wichtig ist.
 
-[insomnia]: ../tools/insomnia.html
+[insomnia]: /tools/insomnia
 [postman]: https://www.postman.com
 [intellij-http-client-plugin]: https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
 [http-client-cli]: https://www.jetbrains.com/help/idea/http-client-cli.html
-[ci-cd]: ../concepts-and-methods/ci-cd.html
+[ci-cd]: /concepts-and-methods/ci-cd

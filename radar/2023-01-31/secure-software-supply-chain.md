@@ -17,4 +17,4 @@ Build der Software auf mögliche Schwachstellen überprüft.
 
 [mend]: https://www.mend.io
 [nexus-lifecycle]: https://www.sonatype.com/products/open-source-security-dependency-management
-[cicd]: ../concepts-and-methods/ci-cd.html
+[cicd]: /concepts-and-methods/ci-cd

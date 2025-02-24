@@ -34,8 +34,8 @@ Lösung, wie eine Software umgesetzt werden kann. Eine Alternative zur Microserv
 [modulare Monolith][modularized-monolith], bei dem ein Monolith in austauschbare und wiederverwendbare Module
 unterteilt wird.
 
-[kafka]: ../platforms/kafka.html
+[kafka]: /platforms/kafka
 [microservices]: https://microservices.io/
 [martinfowler]: https://martinfowler.com/articles/micro-frontends.html
-[web-components]: ../concepts-and-methods/web-components.html
-[modularized-monolith]: ../concepts-and-methods/modularized-monolith.html
+[web-components]: /concepts-and-methods/web-components
+[modularized-monolith]: /concepts-and-methods/modularized-monolith

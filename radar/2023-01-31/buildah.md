@@ -11,5 +11,5 @@ eine feine Kontrolle über den Erstellungsprozess und kann mit anderen Container
 integriert werden.
 
 [buildah]: https://buildah.io
-[podman]: ../tools/podman.html
+[podman]: /tools/podman
 

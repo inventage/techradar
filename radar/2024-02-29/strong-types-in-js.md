@@ -20,4 +20,4 @@ zu erleichtern.
 [typescript]: https://www.typescriptlang.org
 [jsdoc]: https://jsdoc.app
 [react]: https://react.dev
-[buildless-web-development]: ../concepts-and-methods/buildless-web-development.html
+[buildless-web-development]: /concepts-and-methods/buildless-web-development

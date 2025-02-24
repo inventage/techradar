@@ -22,5 +22,5 @@ mittels Überwachung der Beziehungen zwischen Modulen als Teil des Build-Prozess
 werden.
 
 [modular-monolith]: https://www.infoxicator.com/modular-monoliths-have-we-come-full-circle
-[microservices]: ../concepts-and-methods/microservice-architektur.html
-[archunit]: ../libraries-frameworks-and-languages/archunit.html
+[microservices]: /concepts-and-methods/microservice-architektur
+[archunit]: /libraries-frameworks-and-languages/archunit

@@ -12,5 +12,5 @@ dem [Web Dev Server][web-dev-server] in Kombination mit [Rollup][rollup] kann w�
 Plugins gearbeitet werden, die auch beim späteren finalen Build für den produktiven Code verwendet werden.
 
 [uniport]: https://uniport.ch
-[web-dev-server]: ../tools/web-dev-server.html
+[web-dev-server]: /tools/web-dev-server
 [rollup]: https://rollupjs.org

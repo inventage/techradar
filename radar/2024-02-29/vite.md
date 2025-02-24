@@ -21,5 +21,5 @@ Ausserdem passt Vites Philosophie "[Pushing the Modern Web][pushing-the-modern-w
 [native]: https://github.com/vitejs/vite/tree/main/packages/create-vite
 [community]: https://github.com/vitejs/awesome-vite#templates
 [pushing-the-modern-web]: https://vitejs.dev/guide/philosophy.html#pushing-the-modern-web
-[modern-web-apis]: ../concepts-and-methods/modern-web-apis.html
-[buildless-web-development]: ../concepts-and-methods/buildless-web-development.html
+[modern-web-apis]: /concepts-and-methods/modern-web-apis
+[buildless-web-development]: /concepts-and-methods/buildless-web-development

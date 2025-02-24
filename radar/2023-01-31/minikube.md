@@ -11,7 +11,7 @@ etwas langsamer ist als kind, haben wir bisher von einem Einsatz in [CI/CD][cicd
 [Rennen][benchmark] um schnelle lokale Kubernetes Test- und Enwicklungsumgebungen bleibt jedoch weiterhin spannend.
 
 [minikube]: https://minikube.sigs.k8s.io/docs/start/
-[kind]: ../tools/kind.html
-[kubernetes]: ../platforms/kubernetes.html
-[cicd]: ../concepts-and-methods/ci-cd.html
+[kind]: /tools/kind
+[kubernetes]: /platforms/kubernetes
+[cicd]: /concepts-and-methods/ci-cd
 [benchmark]: https://minikube.sigs.k8s.io/docs/benchmarks/timetok8s/

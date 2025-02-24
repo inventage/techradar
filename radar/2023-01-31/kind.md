@@ -12,6 +12,6 @@ Schnelligkeit von kind macht ihn auch zu einem passenden Kandidaten, um Ad-hoc-C
 starten.
 
 [kind]: https://kind.sigs.k8s.io/
-[cicd]: ../concepts-and-methods/ci-cd.html
-[kubernetes]: ../platforms/kubernetes.html
+[cicd]: /concepts-and-methods/ci-cd
+[kubernetes]: /platforms/kubernetes
 

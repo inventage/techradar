@@ -21,8 +21,8 @@ sich das Outbox Pattern in Quarkus relativ einfach konfigurieren.
 
 [debezium]: https://debezium.io/
 [cdc]: https://en.wikipedia.org/wiki/Change_data_capture
-[postgres]: ../tools/postgresql.html
-[kafka]: ../platforms/kafka.html
+[postgres]: /tools/postgresql
+[kafka]: /platforms/kafka
 [outbox-pattern]: https://medium.com/design-microservices-architecture-with-patterns/outbox-pattern-for-microservices-architectures-1b8648dfaa27
-[quarkus]: ../libraries-frameworks-and-languages/quarkus.html
+[quarkus]: /libraries-frameworks-and-languages/quarkus
 [maven-debezium]: https://debezium.io/documentation/reference/stable/integrations/outbox.html

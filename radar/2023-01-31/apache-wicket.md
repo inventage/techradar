@@ -19,6 +19,6 @@ dass Wicket in den letzten Jahren mit der Entwicklung clientseitiger Web-Framewo
 Deshalb setzen wir für neue Projekte auf [Angular][angular] oder [Lit][lit].
 
 [apache-wicket]: https://wicket.apache.org/
-[web-components]: ../concepts-and-methods/web-components.html
-[lit]: ../libraries-frameworks-and-languages/lit.html
-[angular]: ../libraries-frameworks-and-languages/angular.html
+[web-components]: /concepts-and-methods/web-components
+[lit]: /libraries-frameworks-and-languages/lit
+[angular]: /libraries-frameworks-and-languages/angular

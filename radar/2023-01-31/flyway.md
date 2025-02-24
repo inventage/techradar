@@ -18,4 +18,4 @@ Applikationscodes mit Versionskontrolle, reproduzierbaren Builds und [CI/CD][cic
 Bei Inventage setzen wir Flyway sowohl lokal während der Entwicklung, als auch in produktiven Systemen erfolgreich ein.
 
 [flyway]: https://flywaydb.org/
-[cicd]: ../concepts-and-methods/ci-cd.html
+[cicd]: /concepts-and-methods/ci-cd

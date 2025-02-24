@@ -16,5 +16,5 @@ setzen wir Keycloak selber in vielen Projekten ein. Für erste Schritte mit Keyc
 
 [keycloak]: https://www.keycloak.org/
 [keycloak-ch]: https://keycloak.ch/
-[quarkus]: ../libraries-frameworks-and-languages/quarkus.html
+[quarkus]: /libraries-frameworks-and-languages/quarkus
 [custom-keycloak]: https://keycloak.ch/keycloak-tutorials/tutorial-custom-keycloak/

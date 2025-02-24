@@ -19,5 +19,5 @@ hochwertigen Code nahtlos weiterverwenden kann. Zudem erlaubt der programmatisch
 Umsysteme (wie z.B. die Datenbank), was sich insbesondere während der Setup- und Teardown-Phasen eines Tests als
 praktisch erweist.
 
-[kotlin]: ../libraries-frameworks-and-languages/kotlin.html
+[kotlin]: /libraries-frameworks-and-languages/kotlin
 [ktor]: https://ktor.io
