@@ -4,4 +4,4 @@ ring:     trial
 quadrant: concepts-and-methods
 ---
 
-TODO
+Wird im Inventage Tech-Radar nicht weiter thematisiert.

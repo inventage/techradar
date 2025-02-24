@@ -1,5 +1,5 @@
 ---
-title:    AI-Assistant  
+title:    AI Coding Assistant  
 ring:     assess  
 quadrant: concepts-and-methods
 ---
