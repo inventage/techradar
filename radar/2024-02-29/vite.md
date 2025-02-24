@@ -16,8 +16,6 @@ erstellen.
 Ausserdem passt Vites Philosophie "[Pushing the Modern Web][pushing-the-modern-web]" zu unseren Einschätzungen zu
 [Modern Web APIs][modern-web-apis] und [Buildless Web Development][buildless-web-development].
 
-___
-
 [vite]: https://vitejs.dev
 [zero-config-pwa]: https://github.com/vite-pwa/vite-plugin-pwa
 [native]: https://github.com/vitejs/vite/tree/main/packages/create-vite
