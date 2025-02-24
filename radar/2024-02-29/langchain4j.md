@@ -25,7 +25,7 @@ und Verarbeitung von Kundenanfragen sowie bei der Abfrage von firmeninternem Wis
 
 ___
 
-<small><sup>1</sup>: [Retrieval-Augmented Generation][rag] (RAG)</small>
+<small><sup>1</sup> [Retrieval-Augmented Generation][rag] (RAG)</small>
 
 [langchain4j]: https://github.com/langchain4j/langchain4j
 [rag]: https://aws.amazon.com/de/what-is/retrieval-augmented-generation
