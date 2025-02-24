@@ -1,6 +1,6 @@
 ---
-title: Strong Types in JavaScript
-ring: trial
+title:    Strong Types in JavaScript
+ring:     trial
 quadrant: concepts-and-methods
 ---
 
