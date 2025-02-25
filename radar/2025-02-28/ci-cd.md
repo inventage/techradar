@@ -4,7 +4,7 @@ ring:     adopt
 quadrant: concepts-and-methods
 ---
 
-CI/CD — Continuous-Integration und Continuous-Delivery bzw. Continuous-Deployment — sind Methodiken des Software-Engineering bei denen Codeänderungen am Produkt mit möglichst kurzer Verzögerung und kleinem manuellem Aufwand gebaut, getestet und zu einem Produkt zusammengefügt (integrated), in einem geeigneten Format ausgeliefert (delivery) und installiert (deployment) werden. Dabei sollte jeder Schritt möglichst einfach und ohne manuelle Eingriffe erfolgen.
+CI/CD — Continuous-Integration und Continuous-Delivery bzw. Continuous-Deployment — sind Methodiken des Software-Engineering, bei denen Codeänderungen am Produkt mit möglichst kurzer Verzögerung und kleinem manuellem Aufwand gebaut, getestet und zu einem Produkt zusammengefügt (integrated), in einem geeigneten Format ausgeliefert (delivery) und installiert (deployment) werden. Dabei sollte jeder Schritt möglichst einfach und ohne manuelle Eingriffe erfolgen.
 
 Continuous-Integration sowie Continuous-Delivery tragen massgeblich zur Qualität von Software bei. Probleme werden unmittelbar sichtbar, Entwickler werden entlastet und Kundenfeedback kann zeitnah eingeholt und verarbeitet werden.
 
