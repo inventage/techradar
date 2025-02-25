@@ -9,7 +9,7 @@ Neben [AI-Coding-Assistants][aiAssistant] gibt es auch andere AI-Tools, die den 
 AI-Productivity-Tools können in vielen Bereichen einen Mehrwert bieten:
 - Wire Mocks: Schnellere Erstellung von Mockups
 - Design & Bilder: Generative-AI für Grafiken und KI-gestützte Bildbearbeitung
-- Präsentationen: Automatisierte Folien und Textoptimierung
+- Präsentationen: Automatisierte Folien- und Textoptimierung
 - Recherche: Neues finden und verstehen und Bekanntes vertiefen und konsolidieren
 - Workflow: Automatisierung von Routineaufgaben
 
