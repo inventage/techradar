@@ -1,7 +1,7 @@
 ---
 title:    Self-Hosted-LLMs
-ring:     adopt
-quadrant: concepts-and-methods
+ring:     trial
+quadrant: platforms
 ---
 
 Ausgereifte Tools wie [LM Studio][lmstudio], Ollama und Hugging Face erleichtern die Installation und den Betrieb von LLMs lokal auf dem eigenen Rechner. Durch Optimierungen wie MLX für Mac, Quantisierung und eine stetig wachsende Open-Source-Community werden diese Modelle immer effizienter und benötigen weniger Speicher und Rechenleistung.

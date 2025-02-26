@@ -1,7 +1,7 @@
 ---
 title:    Self-hosted LLMs  
 ring:     assess  
-quadrant: concepts-and-methods
+quadrant: platforms
 ---
 
 Self-hosted LLMs bieten eine Alternative für den Betrieb von Large-Language-Models, die keine umfangreiche
