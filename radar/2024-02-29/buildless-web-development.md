@@ -1,6 +1,6 @@
 ---
 title:    Buildless Web Development  
-ring:     trial  
+ring:     adopt  
 quadrant: concepts-and-methods
 ---
 
