@@ -4,4 +4,7 @@ ring:     adopt
 quadrant: concepts-and-methods
 ---
 
-TODO
+Bei Inventage evaluieren wir momentan als Alternative das von [OWASP][owasp] getriebene Open-Source Projekt [Dependency-Track][dependency-track].
+
+[owasp]: https://owasp.org/
+[dependency-track]: https://dependencytrack.org/
