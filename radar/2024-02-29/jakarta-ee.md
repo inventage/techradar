@@ -4,4 +4,5 @@ ring:     hold
 quadrant: libraries-frameworks-and-languages
 featured: false
 ---
-Wird im Inventage Tech-Radar nicht weiter thematisiert.
+
+Wir haben die Technologie vom Tech-Radar entfernt und werden sie nicht weiter thematisieren.
