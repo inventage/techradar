@@ -11,3 +11,5 @@ Der Vorteil von PWAs liegt darin, dass dank offener Web-Technologien Funktionen 
 Hintergrundaktualisierung oder Push-Benachrichtigungen in einer einzigen Code-Basis implementiert und auf allen Plattformen
 eingesetzt werden können. Bestehende Web-Applikationen können idealerweise zu einer PWA ausgebaut werden, um
 das Benutzererlebnis zu verbessern.
+
+[pwa]: https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
