@@ -14,5 +14,5 @@ In unseren Projekten benutzen wir bisher hauptsächlich Docker. Ein Austausch du
 erste Versuche und Anwendungsfälle mit Podman vielversprechend aussehen.
 
 [podman]: https://podman.io/
-[buildah]: ../tools/buildah.html
+[buildah]: /tools/buildah
 [skopeo]: https://github.com/containers/skopeo

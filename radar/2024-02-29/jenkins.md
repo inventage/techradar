@@ -13,4 +13,4 @@ Aus diesem Grund setzen wir bei neuen Projekten nur noch auf containerbasierte B
 Actions][gitHubActions], die von den Projektteams autonom verwaltet werden können.
 
 [jenkins]: https://www.jenkins.io/
-[gitHubActions]: ../tools/github-actions.html
+[gitHubActions]: /tools/github-actions

@@ -32,4 +32,4 @@ ressourceneffizienter und enthalten Unterstützung für Cloud-native Funktionen.
 [cdi]: https://jakarta.ee/specifications/cdi/
 [wildfly]: https://www.wildfly.org/
 [glassfish]: https://glassfish.org/
-[quarkus]: ../libraries-frameworks-and-languages/quarkus.html
+[quarkus]: /libraries-frameworks-and-languages/quarkus

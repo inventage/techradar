@@ -10,5 +10,5 @@ wir für grössere (Frontend-) Projekte auf [TypeScript][typescript], womit sich
 lange Sicht effizient sicherstellen lässt.
 
 [javascript]: https://www.javascript.com/
-[typescript]: ../libraries-frameworks-and-languages/typescript.html
+[typescript]: /libraries-frameworks-and-languages/typescript
 

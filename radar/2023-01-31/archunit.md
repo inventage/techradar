@@ -12,4 +12,4 @@ Für den Architekturstil [modularer Monolith][modularized-monolith] bietet ArchU
 sicherzustellen, dass die Modul-Grenzen respektiert werden.
 
 [archunit]: https://www.archunit.org/
-[modularized-monolith]: ../concepts-and-methods/modularized-monolith.html
+[modularized-monolith]: /concepts-and-methods/modularized-monolith

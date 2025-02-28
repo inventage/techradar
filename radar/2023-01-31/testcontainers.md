@@ -14,6 +14,6 @@ ___
 <small><sup>1</sup> die Bibliothek gibt es auch für weitere Sprachen wie z.B. Go, Python oder .NET</small>
 
 [testcontainers]: https://www.testcontainers.org/
-[quarkus]: ../libraries-frameworks-and-languages/quarkus.html
+[quarkus]: /libraries-frameworks-and-languages/quarkus
 [uniport]: https://uniport.ch/
 

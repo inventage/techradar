@@ -1,0 +1,129 @@
+{
+  "basePath": "/",
+  "baseUrl": "https://techradar.inventage.com",
+  "logoFile": "/logo.svg",
+  "jsFile": "",
+  "toggles": {
+    "showChart": true,
+    "showTagFilter": true,
+    "showQuadrantList": true,
+    "showEmptyRings": false
+  },
+  "sections": ["radar", "tags", "list"],
+  "colors": {
+    "foreground": "#333333",
+    "background": "#fafafa",
+    "highlight": "#0a7f90",
+    "content": "#eeeeee",
+    "text": "#333333",
+    "link": "#0a7f90",
+    "border": "rgba(255, 255, 255, 0.1)",
+    "tag": "rgba(255, 255, 255, 0.1)"
+  },
+  "quadrants": [
+    {
+      "id": "concepts-and-methods",
+      "title": "Konzepte & Methoden",
+      "description": "Elemente des Softwareentwicklungsprozesses und Methoden bzw. Muster zur Strukturierung von Software.",
+      "color": "#0a7f90"
+    },
+    {
+      "id": "platforms",
+      "title": "Plattformen",
+      "description": "Alles, worauf wir Software aufbauen. Infrastrukturplattformen und -dienste, sowohl externe als auch interne.",
+      "color": "#fe7b7f"
+    },
+    {
+      "id": "libraries-frameworks-and-languages",
+      "title": "Libraries, Frameworks & Programmiersprachen",
+      "description": "Im Unterschied zu den Tools sind Libraries, Frameworks und Programmiersprachen Teil des Produkts und werden mit der Software selbst ausgeliefert. Es handelt sich um eine Art \"Runtime Artefakte\".",
+      "color": "#70a696"
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "description": "Tools unterstützen uns bei der Arbeit. Sei das bei der Entwicklung der Software, bei der Installation von Software oder auch bei der Dokumentation von Software. Es können einfache Terminal basierte Tools sein oder aber native Applikationen oder Web-Applikationen mit GUI.",
+      "color": "#f0b995"
+    }
+  ],
+  "rings": [
+    {
+      "id": "adopt",
+      "title": "Adopt",
+      "description": "Wir haben sehr gute Erfahrung gemacht und das Vertrauen in diese Technologie ist gross. Es besteht kein Zweifel, dass die Technologien sich bewährt hat und genügend ausgereift ist, um in unseren Projekten eingesetzt zu werden. Für einen bestimmten Anwendungsfall sehen wir sie als die beste Wahl an.<br/>Wir sind der festen Überzeugung, dass wir als Inventage diese Technologie in unseren Projekten einsetzen wollen.",
+      "color": "#9bc1b6",
+      "radius": 0.5,
+      "strokeWidth": 5
+    },
+    {
+      "id": "trial",
+      "title": "Trial",
+      "description": "Nach einer ersten Analyse hat sich gezeigt, dass die Technologie vielversprechend ist und es sich lohnt, sie weiter zu verfolgen und auf Probe in einem Projekt einzusetzen. Die Technologie ist aber noch nicht vollständig erprobt. Wir brauchen noch mehr Erfahrung, um uns eine klare Meinung zu bilden.<br/>Inventage sollte diese Technologie in einem Projekt ausprobieren, welches das Risiko tragen kann.",
+      "color": "#f0b995",
+      "radius": 0.69,
+      "strokeWidth": 3
+    },
+    {
+      "id": "assess",
+      "title": "Assess",
+      "description": "Wir haben von dieser Technologie gehört und wollen ihr Potenzial erforschen. Wirkliche Erfahrung haben wir mit der Technologie aber noch keine gesammelt.<br/>Als Inventage wollen wir verstehen, wie wir die Technologien in unseren Projekten einsetzten können. Dazu wollen wir uns genauer informieren. Erfahrungsberichte / Blogs lesen, Dokumentation studieren, ein Buch lesen, die Technologie in einem Pet-Projekt oder im Code-Camp ausprobieren.",
+      "color": "#54a5b1",
+      "radius": 0.85,
+      "strokeWidth": 2
+    },
+    {
+      "id": "hold",
+      "title": "Hold",
+      "description": "Bei diesen Technologien ist Vorsicht geboten, wenn möglich in Zukunft vermeiden. Die Technologie ist fehlerhaft oder noch nicht ausgereift genug. Veraltete Technologien gehören auch in diesen Ring, es gibt inzwischen bessere Alternativen.<br/>Inventage verwendet diese Technologien noch in einigen Projekten, möchte sie aber in neuen Projekten nicht mehr einsetzen und längerfristig auch in älteren Projekten ersetzen.",
+      "color": "#aaaaaa",
+      "radius": 1,
+      "strokeWidth": 0.75
+    }
+  ],
+  "flags": {
+    "new": {
+      "color": "#b3c8e0",
+      "title": "Neu",
+      "titleShort": "N",
+      "description": "Neu in dieser Version"
+    },
+    "changed": {
+      "color": "#fdefe6",
+      "title": "Verändert",
+      "titleShort": "V",
+      "description": "Kürzlich verändert"
+    },
+    "default": {
+      "description": "Unverändert"
+    }
+  },
+  "chart": {
+    "size": 700,
+    "blipSize": 12
+  },
+  "social": [
+    {
+      "href": "https://www.linkedin.com/company/inventageag",
+      "icon": "linkedIn"
+    },
+    {
+      "href": "https://github.com/inventage",
+      "icon": "github"
+    }
+  ],
+  "labels": {
+    "title": "Inventage Tech-Radar",
+    "quadrant": "Quadrant",
+    "quadrantOverview": "Quadrant Übersicht",
+    "zoomIn": "Vergrössern",
+    "filterByTag": "Nach Tag filtern",
+    "footer": "Seit 2000 bauen wir bei Inventage massgeschneiderte, digitale Lösungen für unsere Kunden — und wir lieben es! Wir setzen Individuallösungen im Digital Banking mit modernsten Web-Technologien und Open-Source-Komponenten um.",
+    "notUpdated": "Dieser Punkt wurde in den letzten drei Versionen des Radars nicht aktualisiert. Sollte er in einer der jüngeren Ausgaben erschienen sein, besteht eine gute Chance, dass er weiterhin relevant ist. Liegt der Artikel jedoch weiter zurück, hat seine Relevanz möglicherweise abgenommen und unsere aktuelle Bewertung könnte sich ändern. Bedauerlicherweise sind unsere Möglichkeiten, Artikel aus früheren Ausgaben des Radars immer wieder zu überprüfen, begrenzt.",
+    "notFound": "404 - Seite nicht gefunden",
+    "pageAbout": "Unser Tech-Radar",
+    "pageOverview": "Technologie Übersicht",
+    "pageSearch": "Suche",
+    "searchPlaceholder": "Was wird gesucht?",
+    "metaDescription": "Im Inventage Tech-Radar teilen wir unsere Einschätzungen zu Innovationen und Trends in den Bereichen Technologien, Tools, Methoden und Programmiersprachen. Ein klarer Blick auf das, was bleibt, und das, was kommt."
+  }
+}

@@ -17,5 +17,5 @@ von etablierten Frameworks wie [Angular][angular], weil darin viele Architekturk
 umgesetzt sind und zur Verfügung gestellt werden.
 
 [web-components]: https://webcomponents.today/
-[lit]: ../libraries-frameworks-and-languages/lit.html
-[angular]: ../libraries-frameworks-and-languages/angular.html
+[lit]: /libraries-frameworks-and-languages/lit
+[angular]: /libraries-frameworks-and-languages/angular

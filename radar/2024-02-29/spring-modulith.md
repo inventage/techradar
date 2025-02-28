@@ -19,4 +19,4 @@ Frameworks denkbar.
 [spring-modulith]: https://spring.io/projects/spring-modulith
 [archunit]: https://www.archunit.org
 [jmolecules]: https://github.com/xmolecules/jmolecules
-[ddd]: ../concepts-and-methods/ddd.html
+[ddd]: /concepts-and-methods/ddd

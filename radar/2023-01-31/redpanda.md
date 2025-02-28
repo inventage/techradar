@@ -13,5 +13,5 @@ der Produktion bezüglich Stabilität, Performance und Ressourcenbedarf genügt 
 übertrifft.
 
 [redpanda]: https://redpanda.com/
-[kafka]: ../platforms/kafka.html
+[kafka]: /platforms/kafka
 

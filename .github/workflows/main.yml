@@ -35,19 +35,22 @@ jobs:
 
       - name: Build
         run: npm run build
+        
+      # Pin netlify-cli
+      # @see https://github.com/netlify/cli/issues/6841
+      - name: Install netlify-cli
+        shell: bash
+        run: npm i -g netlify-cli@17.36.1
 
-      # Use netlify-cli directly, since it is installed in the latest ubuntu runner
-      # @see https://github.com/actions/runner-images/blob/main/images/linux/Ubuntu2204-Readme.md#cli-tools
+      # Use netlify-cli for deployment
       # @see https://cli.netlify.com/commands/deploy/
       - name: Deploy
         id: deploy
         run: |
           netlify deploy \
             --alias ${{ env.BRANCH_NAME_SLUG }} \
-            --build false \
-            --dir build \
+            --dir ./build \
             --message 'Preview deployment for ${{ steps.slug.outputs.branch-name }} (${{ env.GITHUB_SHA_SHORT }})' \
-            --prod false \
             --json true
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}

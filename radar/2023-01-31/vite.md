@@ -11,5 +11,5 @@ gestartet werden und benötigt initial keine Konfiguration. Mittels Rollup-Based
 modifiziert und diverse Web-Frameworks unterstützt werden.
 
 [vite]: https://vitejs.dev/
-[javascript]: ../libraries-frameworks-and-languages/javascript.html
-[typescript]: ../libraries-frameworks-and-languages/typescript.html
+[javascript]: /libraries-frameworks-and-languages/javascript
+[typescript]: /libraries-frameworks-and-languages/typescript

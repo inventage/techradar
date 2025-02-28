@@ -14,4 +14,4 @@ die GraalVM in der Praxis bewährt, ob der Zusatzaufwand für einen GraalVM-Buil
 Polyglossie der GraalVM zu unserem Vorteil nutzen können.
 
 [graalvm]: https://www.graalvm.org/
-[quarkus]: ../libraries-frameworks-and-languages/quarkus.html
+[quarkus]: /libraries-frameworks-and-languages/quarkus

@@ -9,5 +9,5 @@ verwalten, ersetzen wir unseren bisherigen [Jenkins][jenkins]-Build-Server durch
 
 [github-actions]: https://docs.github.com/en/actions
 [github]: https://github.com
-[ci-cd]: ../concepts-and-methods/ci-cd.html
-[jenkins]: ../tools/jenkins.html
+[ci-cd]: /concepts-and-methods/ci-cd
+[jenkins]: /tools/jenkins

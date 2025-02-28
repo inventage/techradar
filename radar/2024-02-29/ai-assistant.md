@@ -1,7 +1,7 @@
 ---
-title:    AI-Assistant  
+title:    AIAssistant  
 ring:     assess  
-quadrant: concepts-and-methods
+quadrant: tools
 ---
 
 AI-gestützte Assistenten zur Codegenerierung, wie sie beispielsweise von GitHub mit [Copilot][copilot] oder JetBrains mit [AI

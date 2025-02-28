@@ -14,4 +14,4 @@ Technologien und Programmiersprachen (Trennung Front- & Backend) sowie die Anfor
 ausprobieren.
 
 [bazel]: https://bazel.build/
-[microservices]: ../concepts-and-methods/microservice-architektur.html
+[microservices]: /concepts-and-methods/microservice-architektur

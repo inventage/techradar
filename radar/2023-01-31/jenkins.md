@@ -11,5 +11,5 @@ zu installieren, da veraltete Plugins oder Kompatibilitätsprobleme unter den Pl
 können. Alternativen sehen wir in moderneren CI/CD-Plattformen wie GitLab oder GitHub Actions.
 
 [jenkins]: https://www.jenkins.io/
-[cicd]: ../concepts-and-methods/ci-cd.html
+[cicd]: /concepts-and-methods/ci-cd
 

@@ -13,5 +13,5 @@ JavaScript-basierten Frameworks die Voraussetzung mit, auch in grösseren Projek
 eingesetzt zu werden.
 
 [angular]: https://angular.io
-[typescript]: ../libraries-frameworks-and-languages/typescript.html
+[typescript]: /libraries-frameworks-and-languages/typescript
 

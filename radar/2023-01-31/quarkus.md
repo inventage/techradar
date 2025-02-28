@@ -15,6 +15,6 @@ auf Quarkus. Dabei entstehen Portal-Lösungen, Microservices im Openshift- bzw. 
 monolithische Applikationen.
 
 [quarkus]: https://quarkus.io/
-[jakarta-ee]: ../libraries-frameworks-and-languages/jakarta-ee.html
-[kubernetes]: ../platforms/kubernetes.html
+[jakarta-ee]: /libraries-frameworks-and-languages/jakarta-ee
+[kubernetes]: /platforms/kubernetes
 
