@@ -3,6 +3,7 @@
   "baseUrl": "https://techradar.inventage.com",
   "logoFile": "/logo.svg",
   "jsFile": "",
+  "editUrl": "",
   "toggles": {
     "showChart": true,
     "showTagFilter": true,
