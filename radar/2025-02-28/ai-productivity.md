@@ -17,4 +17,4 @@ Ein erster Schritt ist der Einsatz von Google-AI in unserem Google-Workspace. Da
 
 Wir wollen im Rahmen unserer Arbeit AI-Tools erkunden, testen und bewerten. Unser Fokus liegt dabei immer auf dem praktischen Nutzen für uns.
 
-[aiAssistant]: /concepts-and-methods/ai-assistant
+[aiAssistant]: /tools/ai-assistant
