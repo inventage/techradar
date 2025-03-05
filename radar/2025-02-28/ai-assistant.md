@@ -15,4 +15,4 @@ Dieses Jahr wollen wir bei Inventage den Einsatz von AI-Assistenten gezielt weit
 - IDE-Integration: Wir untersuchen, welche Möglichkeiten es gibt, AI direkt in unsere Entwicklungsumgebungen einzubinden, um sie nahtlos in den Arbeitsalltag zu integrieren.
 - Prompt-Engineering: Wir testen, wie durch gezieltes Prompting bessere und relevantere Resultate erzielt werden können.
 
-[selfHostedLlms]: /concepts-and-methods/self-hosted-llms
+[selfHostedLlms]: /platforms/self-hosted-llms
