@@ -2,7 +2,7 @@
 title: CI/CD  
 ring: adopt  
 quadrant: concepts-and-methods
-tags: [DevOps]
+tags:     [DevOps]
 ---
 
 [CI/CD][redhat] — Continuous Integration und Continuous Delivery bzw. Continuous-Deployment — sind Methodiken des Software-Engineering bei denen

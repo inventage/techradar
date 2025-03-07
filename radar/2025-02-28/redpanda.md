@@ -3,7 +3,7 @@ title:    Redpanda
 ring:     assess
 quadrant: platforms
 featured: false
-tags: []
+tags:     []
 ---
 
 Redpanda wird neu unter [Kafka][kafka] erwähnt. 

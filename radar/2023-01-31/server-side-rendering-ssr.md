@@ -2,7 +2,7 @@
 title:    Server Side Rendering (SSR)
 ring:     assess  
 quadrant: concepts-and-methods
-tags: []
+tags:     []
 ---
 
 Server Side Rendering (SSR) hat zum Ziel, häufig auftretende Probleme von Single-Page-Applikationen (SPA) zu lösen. Dazu

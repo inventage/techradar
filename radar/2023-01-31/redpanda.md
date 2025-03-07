@@ -2,7 +2,7 @@
 title:    Redpanda  
 ring:     assess  
 quadrant: platforms
-tags: []
+tags:     []
 ---
 
 [Redpanda][redpanda] ist eine [Kafka][kafka]-kompatible Daten-Streaming-Plattform. Sie ist gemäss eigener Beschreibung

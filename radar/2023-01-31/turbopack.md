@@ -2,7 +2,7 @@
 title:    Turbopack  
 ring:     assess  
 quadrant: libraries-frameworks-and-languages
-tags: []
+tags:     []
 ---
 
 [Turbopack][turbopack] ist ein Next-Generation-Bundler. Er positioniert sich als Nachfolger von [Webpack][webpack] und

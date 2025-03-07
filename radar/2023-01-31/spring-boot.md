@@ -2,7 +2,7 @@
 title:    Spring Boot  
 ring:     adopt  
 quadrant: libraries-frameworks-and-languages
-tags: [Backend]
+tags:     [Backend]
 ---
 
 [Spring Boot][spring-boot] bietet eine schnelle und einfache Möglichkeit, Java-Applikationen zu erstellen und zu

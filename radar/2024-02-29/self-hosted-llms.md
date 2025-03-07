@@ -2,7 +2,7 @@
 title:    Self-hosted LLMs  
 ring:     assess  
 quadrant: platforms
-tags: [AI]
+tags:     [AI]
 ---
 
 Self-hosted LLMs bieten eine Alternative für den Betrieb von Large-Language-Models, die keine umfangreiche

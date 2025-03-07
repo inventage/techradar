@@ -2,7 +2,7 @@
 title:    Elastic Stack  
 ring:     adopt  
 quadrant: tools
-tags: [Monitoring]
+tags:     [Monitoring]
 ---
 
 Der [Elastic Stack][elastic-stack] besteht im Herz aus dem clusterfähigen und robusten Suchindex

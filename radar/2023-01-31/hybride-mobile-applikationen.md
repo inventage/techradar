@@ -2,7 +2,7 @@
 title:    Hybride mobile Applikationen  
 ring:     trial  
 quadrant: concepts-and-methods
-tags: [Mobile]
+tags:     [Mobile]
 ---
 
 Immer wieder sind wir bei unseren Kundenprojekten mit Anfragen für mobile Applikationen konfrontiert. Eine der

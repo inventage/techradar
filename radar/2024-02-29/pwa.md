@@ -2,7 +2,7 @@
 title: Progressive Web Application
 ring: adopt
 quadrant: concepts-and-methods
-tags: [Frontend]
+tags:     [Frontend]
 ---
 
 Eine [Progressive Web Application][pwa] (PWA) ist eine mit Web-Technologien gebaute Applikation, die sich wie eine

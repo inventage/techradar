@@ -2,7 +2,7 @@
 title:    CI/CD  
 ring:     adopt  
 quadrant: concepts-and-methods
-tags: [DevOps]
+tags:     [DevOps]
 ---
 
 Continuous-Integration und -Delivery werden, wenn möglich, bis zur Produktions-Installation auf Knopfdruck umgesetzt. Wir erreichen dies durch den Einsatz geeigneter Tools wie [GitHub-Actions][github-actions], Container-Images und möglichst produktionsnaher Testumgebungen beim Kunden oder In-House.

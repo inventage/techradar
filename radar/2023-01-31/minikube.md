@@ -2,7 +2,7 @@
 title:    minikube  
 ring:     adopt  
 quadrant: tools
-tags: [DevOps]
+tags:     [DevOps]
 ---
 
 [minikube][minikube] stellt ähnlich wie [kind][kind] [Kubernetes][kubernetes]-Cluster bereit, die als Container oder

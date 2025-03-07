@@ -2,7 +2,7 @@
 title:    Jenkins  
 ring:     hold  
 quadrant: tools
-tags: []
+tags:     []
 ---
 
 Bei Inventage verwenden wir [Jenkins][jenkins] als Build-, [Continuous-Integration- und

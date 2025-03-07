@@ -2,7 +2,7 @@
 title:    Spring Modulith
 ring:     assess  
 quadrant: libraries-frameworks-and-languages
-tags: []
+tags:     []
 ---
 
 Microservices haben sich als eine führende architektonische Technik in modernen Cloud-basierten Systemen etabliert. Wir

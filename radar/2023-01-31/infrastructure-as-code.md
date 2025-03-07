@@ -2,7 +2,7 @@
 title:    Infrastructure as Code  
 ring:     adopt  
 quadrant: concepts-and-methods
-tags: [DevOps]
+tags:     [DevOps]
 ---
 
 [Infrastructure as Code][iac] (IaC) ist ein Konzept mit dem Ziel, die Bereitstellung und das Management von

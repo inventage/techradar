@@ -2,7 +2,7 @@
 title:    Podman  
 ring:     trial  
 quadrant: tools
-tags: [DevOps]
+tags:     [DevOps]
 ---
 
 [Podman][podman] ist ein Tool, um OCI-kompatible Container laufen zu lassen, ähnlich wie das ältere Docker. Anders als

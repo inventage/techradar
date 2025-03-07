@@ -2,7 +2,7 @@
 title:    DDD  
 ring:     adopt 
 quadrant: concepts-and-methods
-tags: [Architecture]
+tags:     [Architecture]
 ---
 
 Der Einsatz von [Domain Driven Design][ddd] (DDD) hat sich in vielen unserer Projekte bewährt, weshalb wir diese Methode

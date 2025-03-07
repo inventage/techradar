@@ -2,7 +2,7 @@
 title:    AI-Coding-Assistant  
 ring:     assess  
 quadrant: tools
-tags: [AI]
+tags:     [AI]
 ---
 
 AI-Assistenten unterstützen nicht nur bei der Codegenerierung, sondern auch bei Dokumentation, Testing und Optimierung. Gleichzeitig bleibt der Datenschutz eine zentrale Herausforderung.

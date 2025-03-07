@@ -2,7 +2,7 @@
 title:    Jakarta EE  
 ring:     hold  
 quadrant: libraries-frameworks-and-languages
-tags: []
+tags:     []
 ---
 
 [Jakarta EE][jakarta-ee], ehemals [Java EE][java-ee], ist eine Sammlung von Java-Technologien und Spezifikationen,

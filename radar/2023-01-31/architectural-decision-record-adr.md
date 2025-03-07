@@ -2,7 +2,7 @@
 title:    Architectural Decision Records (ADR)  
 ring:     assess  
 quadrant: concepts-and-methods
-tags: []
+tags:     []
 ---
 
 [Architectural Decision Records][adr] (ADRs) sind ein leichtgewichtiger Ansatz, um wichtige Entscheidungen zu

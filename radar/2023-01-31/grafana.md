@@ -2,7 +2,7 @@
 title:    Grafana  
 ring:     adopt  
 quadrant: tools
-tags: [Monitoring]
+tags:     [Monitoring]
 ---
 
 [Grafana][grafana] ist ein leistungsstarkes Dashboard- und Analysewerkzeug für Zeitreihendaten. Es ermöglicht die

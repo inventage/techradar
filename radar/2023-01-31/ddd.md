@@ -2,7 +2,7 @@
 title:    DDD  
 ring:     trial  
 quadrant: concepts-and-methods
-tags: [Architecture]
+tags:     [Architecture]
 ---
 
 [Domain Driven Design][ddd] (DDD) hilft bei der Implementierung von Fachapplikationen. Zentral ist dabei die Verwendung

@@ -2,7 +2,7 @@
 title:    REST Assured  
 ring:     adopt  
 quadrant: libraries-frameworks-and-languages
-tags: [Backend, Testing]
+tags:     [Backend, Testing]
 ---
 
 Unter Schnittstellen-Tests versteht man das Prüfen von Programmierschnittstellen (APIs). Die Schnittstelle wird zum

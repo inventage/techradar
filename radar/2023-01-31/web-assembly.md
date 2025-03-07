@@ -2,7 +2,7 @@
 title:    WebAssembly  
 ring:     assess  
 quadrant: platforms
-tags: []
+tags:     []
 ---
 
 [WebAssembly][web-assembly] definiert einen Bytecode, der performant innerhalb des Webbrowsers ausgeführt wird. Dabei

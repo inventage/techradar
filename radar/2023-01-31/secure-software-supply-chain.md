@@ -2,7 +2,7 @@
 title:    Secure Software Supply-Chain  
 ring:     adopt  
 quadrant: concepts-and-methods
-tags: [Security]
+tags:     [Security]
 ---
 
 Eine Secure Software Supply-Chain (SSSC) stellt sicher, dass nur vertrauenswürdige Software in eine Organisation

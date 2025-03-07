@@ -2,7 +2,7 @@
 title:    Buildah  
 ring:     trial  
 quadrant: tools
-tags: [DevOps]
+tags:     [DevOps]
 ---
 
 Mit [Buildah][buildah] können Container-Images erstellt, verwaltet und bearbeitet werden. Es ermöglicht dem Benutzer,

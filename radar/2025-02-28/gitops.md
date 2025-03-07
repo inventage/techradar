@@ -2,7 +2,7 @@
 title:    GitOps  
 ring:     trial  
 quadrant: concepts-and-methods
-tags: [DevOps]
+tags:     [DevOps]
 ---
 
 [GitOps][gitops] ist eine alternative Umsetzung von Continuous-Deployment. Dabei wird der Build-Server von den Aufgaben des Deployments entbunden. Stattdessen wird innerhalb der Zielumgebung (z.B. einem Kubernetes-Cluster) ein Continuous-Deployment-Prozess genutzt, der periodisch die deklarative Deployment-Beschreibung aus einem Git-Repository bezieht und mit dem aktuellen Zustand des Zielsystems vergleicht. Bei einer Differenz erfolgt eine Aktualisierung gemäss der vorliegenden Beschreibung. Als CD-Prozess nutzen wir meist den Kubernetes-Operator von [Argo CD][argocd].

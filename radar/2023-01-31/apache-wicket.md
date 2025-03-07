@@ -2,7 +2,7 @@
 title:    Apache Wicket  
 ring:     hold  
 quadrant: libraries-frameworks-and-languages
-tags: []
+tags:     []
 ---
 
 [Wicket][apache-wicket] ist ein serverseitiges, komponentenbasiertes Java-Web-Framework, das von der Apache Software

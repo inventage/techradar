@@ -2,7 +2,7 @@
 title:    Artificial Intelligence  
 ring:     trial  
 quadrant: concepts-and-methods
-tags: [AI]
+tags:     [AI]
 ---
 
 Artificial Intelligence (AI) bleibt eines der dominierenden IT-Themen. Im letzten Jahr wurden unzählige neue Dienstleistungen und

@@ -2,7 +2,7 @@
 title:    Vite  
 ring:     assess  
 quadrant: tools
-tags: [Frontend]
+tags:     [Frontend]
 ---
 
 [Vite][vite] ist ein Dev-Server und Bundler für [JavaScript][javascript]- und [TypeScript][typescript]-Applikationen.

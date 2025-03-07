@@ -2,7 +2,7 @@
 title: GitHub Actions
 ring: adopt
 quadrant: tools
-tags: [DevOps]
+tags:     [DevOps]
 ---
 
 [GitHub Actions][github-actions] ist eine Container-basierte [CI/CD][ci-cd]-Lösung von [GitHub][github]. Dank der Integration mit GitHub, der Flexibilität und der Möglichkeit für Projektteams, sich selbst zu

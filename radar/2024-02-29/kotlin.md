@@ -2,7 +2,7 @@
 title:    Kotlin  
 ring:     adopt
 quadrant: libraries-frameworks-and-languages
-tags: [Backend]
+tags:     [Backend]
 ---
 
 Mit der Implementierung von Integrationstests für REST-APIs als auch der Implementierung von REST-APIs zum Mocken von

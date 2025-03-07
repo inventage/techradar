@@ -2,7 +2,7 @@
 title:    Web Dev Server  
 ring:     adopt  
 quadrant: tools
-tags: [Frontend]
+tags:     [Frontend]
 ---
 
 [Web Dev Server][modern-web] ist ein Dev-Server für JavaScript-Applikationen. Unabhängig von der Projektgrösse
