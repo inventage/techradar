@@ -3,6 +3,7 @@ title:    Artificial Intelligence
 ring:     trial  
 quadrant: concepts-and-methods
 featured: false
+tags: [AI]
 ---
 
 Artificial Intelligence bleibt ein wichtiges Thema. Anstatt sie als eine einzelne Technologie zu führen, beleuchten wir AI gezielt in spezialisierten Beiträgen:

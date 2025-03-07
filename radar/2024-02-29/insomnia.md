@@ -2,6 +2,7 @@
 title:    Insomnia  
 ring:     hold  
 quadrant: tools
+tags: []
 ---
 
 Leider hat sich Insomnia zunehmend von einer schlanken Anwendung zu einer schwerfälligen Plattform entwickelt, ähnlich

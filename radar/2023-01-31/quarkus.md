@@ -2,6 +2,7 @@
 title:    Quarkus  
 ring:     adopt  
 quadrant: libraries-frameworks-and-languages
+tags: [Backend]
 ---
 
 Mit [Quarkus][quarkus] lassen sich für die Cloud optimierte Anwendungen entwickeln. Etablierte und bewährte

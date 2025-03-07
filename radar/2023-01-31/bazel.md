@@ -2,6 +2,7 @@
 title:    Bazel  
 ring:     assess  
 quadrant: tools
+tags: []
 ---
 
 [Bazel][bazel] ist ein von Google entwickeltes, quelloffenes Build-Werkzeug, das mit komplexen Projekten, in denen

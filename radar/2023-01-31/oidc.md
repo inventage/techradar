@@ -2,6 +2,7 @@
 title:    OIDC  
 ring:     adopt  
 quadrant: libraries-frameworks-and-languages
+tags: [Security]
 ---
 
 [OpenID Connect][oidc] (OIDC) ist ein offener Standard zur Federation von Benutzeridentitäten, basierend

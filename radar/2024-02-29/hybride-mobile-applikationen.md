@@ -2,6 +2,7 @@
 title:    Hybride mobile Applikationen  
 ring:     adopt  
 quadrant: concepts-and-methods
+tags: [Mobile]
 ---
 
 Das Konzept der [hybriden mobilen Applikationen][hybride-mobile-app] haben wir bereits erfolgreich in diversen Kundenprojekten angewendet. Die eingesetzten Technologien für die Wrapper-Applikationen haben sich bewährt und sind inzwischen reif für den

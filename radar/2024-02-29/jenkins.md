@@ -2,6 +2,7 @@
 title:    Jenkins  
 ring:     hold  
 quadrant: tools
+tags: []
 ---
 
 [Jenkins][jenkins], der weit verbreitete Open-Source Build-Server, wird bei Inventage in vielen Projekten als

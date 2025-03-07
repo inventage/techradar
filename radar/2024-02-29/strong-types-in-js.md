@@ -2,6 +2,7 @@
 title: Strong Types in JavaScript
 ring: assess
 quadrant: concepts-and-methods
+tags: [Frontend]
 ---
 
 In der schnelllebigen Welt von JavaScript ist es eine Herausforderung, die Korrektheit und Wartbarkeit des Codes 

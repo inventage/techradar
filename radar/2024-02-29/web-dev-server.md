@@ -2,6 +2,7 @@
 title:    Web Dev Server  
 ring:     adopt  
 quadrant: tools
+tags: [Frontend]
 ---
 
 Der Einsatz des [Web Dev Server][web-dev-server] hat sich in vielen Projekten, insbesondere auch in Kombination mit

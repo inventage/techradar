@@ -2,6 +2,7 @@
 title: Intellij HTTP Client Plugin
 ring: assess
 quadrant: tools
+tags: [Testing]
 ---
 
 Da wir mit [Insomnia][insomnia] und [Postman][postman] als Tools für das Testen von APIs unzufrieden sind, suchen wir

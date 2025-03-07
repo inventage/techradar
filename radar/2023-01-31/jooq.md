@@ -2,6 +2,7 @@
 title:    jOOQ  
 ring:     trial  
 quadrant: libraries-frameworks-and-languages
+tags: [Backend, Data]
 ---
 
 JPA und Hibernate sind De-facto-Standards für Datenbank-Zugriffe in Java, auch bei Inventage. Mit steigender Komplexität

@@ -2,6 +2,7 @@
 title:    Design Tokens  
 ring:     assess  
 quadrant: concepts-and-methods
+tags: []
 ---
 
 [Design Tokens][design-tokens] bilden die Basis von [Design-Systemen][design-system]. Mit ihrer Hilfe werden

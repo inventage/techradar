@@ -2,6 +2,7 @@
 title:    Kafka  
 ring:     adopt  
 quadrant: platforms
+tags: [Backend]
 ---
 
 [Apache Kafka][kafka] ist eine quelloffene Event Streaming Plattform, die in den letzten Jahren viel Popularität erlangt

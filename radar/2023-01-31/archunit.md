@@ -2,6 +2,7 @@
 title:    ArchUnit  
 ring:     adopt  
 quadrant: libraries-frameworks-and-languages
+tags: [Architektur]
 ---
 
 [ArchUnit][archunit] erlaubt es, die Architektur einer Software zu definieren und dann in Form von Unittests zu prüfen.

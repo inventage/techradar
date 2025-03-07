@@ -2,6 +2,7 @@
 title:    Analog  
 ring:     assess  
 quadrant: libraries-frameworks-and-languages
+tags: [Frontend]
 ---
 
 Das Meta-Framework [Analog][analog] baut auf dem Frontend-Framework Angular auf und erweitert es um zusätzliche Funktionalitäten.

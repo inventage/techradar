@@ -2,6 +2,7 @@
 title: Passkeys
 ring: adopt
 quadrant: concepts-and-methods
+tags: [Security]
 ---
 
 Als Alternative zu traditionellen Passwörtern bieten [Passkeys][passkeys] eine sicherere Möglichkeit zur Benutzerauthentisierung. Passkeys sind zufällig generierte Schlüsselpaare, die aus einem Private- und einem Public-Key bestehen.

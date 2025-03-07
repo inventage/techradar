@@ -2,6 +2,7 @@
 title:    Codequaliät  
 ring:     adopt  
 quadrant: concepts-and-methods
+tags: []
 ---
 
 Erfolgreiche Software zeichnet sich nicht nur durch ihre Funktionalität oder die Anzahl Features aus, sondern soll auch

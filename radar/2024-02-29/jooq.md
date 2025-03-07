@@ -2,6 +2,7 @@
 title:    jOOQ  
 ring:     trial  
 quadrant: libraries-frameworks-and-languages
+tags: [Backend, Data]
 ---
 
 Bisher wurde [jOOQ][jooq] bei Inventage noch in keinem Projekt eingesetzt. Wir sehen jedoch einige vielversprechende

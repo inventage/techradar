@@ -2,6 +2,7 @@
 title:    AI-Productivity-Tools  
 ring:     assess  
 quadrant: tools
+tags: [AI]
 ---
 
 Neben [AI-Coding-Assistants][aiAssistant] gibt es auch andere AI-Tools, die den Arbeitsalltag effizienter machen. Wir möchten herausfinden, welche uns im Tagesgeschäft sinnvoll unterstützen können.

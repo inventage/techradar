@@ -2,6 +2,7 @@
 title:    Keycloak  
 ring:     adopt  
 quadrant: tools
+tags: [Security]
 ---
 
 [Keycloak][keycloak] ist eine quelloffene Identity & Access Management (IAM) Lösung. Aufgrund unserer Überzeugung von

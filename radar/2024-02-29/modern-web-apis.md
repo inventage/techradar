@@ -2,6 +2,7 @@
 title:    Modern Web APIs
 ring:     adopt
 quadrant: concepts-and-methods
+tags: [Backend]
 ---
 
 Die Philosophie hinter "Modern Web APIs" hat zum Ziel, robuste, wartungsfreundliche und performante

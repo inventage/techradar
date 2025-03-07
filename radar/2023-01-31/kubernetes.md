@@ -2,6 +2,7 @@
 title:    Kubernetes  
 ring:     adopt  
 quadrant: platforms
+tags: [DevOps]
 ---
 
 [Kubernetes][kubernetes] ist ein Open-Source-System für die Orchestrierung von Container-Anwendungen. Die

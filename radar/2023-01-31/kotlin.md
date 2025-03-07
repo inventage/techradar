@@ -2,6 +2,7 @@
 title:    Kotlin  
 ring:     trial  
 quadrant: libraries-frameworks-and-languages
+tags: [Backend]
 ---
 
 [Kotlin][kotlin] ist eine statisch typisierte Programmiersprache, die Konzepte aus der objektorientierten und der

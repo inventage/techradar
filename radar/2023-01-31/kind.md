@@ -2,6 +2,7 @@
 title:    kind  
 ring:     trial  
 quadrant: tools
+tags: [DevOps]
 ---
 
 [kind][kind] (Kubernetes in Docker) stellt [Kubernetes][kubernetes]-Cluster als Container-Images bereit, die bequem in

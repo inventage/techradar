@@ -2,6 +2,7 @@
 title:    Apache Tomcat  
 ring:     hold  
 quadrant: libraries-frameworks-and-languages
+tags: []
 ---
 
 [Apache Tomcat][tomcat] ist ein robuster quelloffener Servlet Container und Webserver, den wir in einigen frühen

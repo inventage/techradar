@@ -2,6 +2,7 @@
 title:    Testcontainers  
 ring:     trial  
 quadrant: libraries-frameworks-and-languages
+tags: [Testing]
 ---
 
 [Testcontainers][testcontainers] (for Java<sup>1</sup>) ist eine Bibliothek, welche die Verwendung von Docker-Containern

@@ -2,6 +2,7 @@
 title:    GraphQL  
 ring:     adopt  
 quadrant: concepts-and-methods
+tags: [Backend]
 ---
 
 [GraphQL][graphql] ist eine Schnittstelle für den lesenden und schreibenden Datenzugriff über das HTTP-Protokoll. Es
