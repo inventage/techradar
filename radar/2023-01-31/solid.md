@@ -2,7 +2,7 @@
 title:    Solid  
 ring:     assess  
 quadrant: concepts-and-methods
-tags: [Architektur]
+tags: [Architecture]
 ---
 
 [Solid][solid] ist eine [Spezifikation][spez] der [W3C Solid Working Group][solid-working-group] für Systeme, die es

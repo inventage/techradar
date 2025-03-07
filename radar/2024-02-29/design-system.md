@@ -2,7 +2,7 @@
 title:    Design System
 ring:     assess  
 quadrant: concepts-and-methods
-tags: [Frontend, Architektur]
+tags: [Frontend, Architecture]
 ---
 
 Wir haben in unseren Projekten die Erfahrung gemacht, dass Design-Tokens allein häufig nicht ausreichen, um die

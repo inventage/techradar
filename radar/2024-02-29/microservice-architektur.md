@@ -2,7 +2,7 @@
 title:    Microservice-Architektur  
 ring:     adopt  
 quadrant: concepts-and-methods
-tags: [Backend, Architektur]
+tags: [Backend, Architecture]
 ---
 
 Unsere Erfahrungen des letzten Jahres bestärken uns im Einsatz von [Microservices][microservices]. Sie ermöglichen eine

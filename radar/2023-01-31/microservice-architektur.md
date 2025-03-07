@@ -2,7 +2,7 @@
 title:    Microservice-Architektur  
 ring:     adopt  
 quadrant: concepts-and-methods
-tags: [Backend, Architektur]
+tags: [Backend, Architecture]
 ---
 
 [Microservices][microservices] sind ein Architekturstil, bei dem eine Anwendung als Sammlung unabhängiger

@@ -2,7 +2,7 @@
 title:    API-first Development  
 ring:     adopt  
 quadrant: concepts-and-methods
-tags: [Backend, Architektur]
+tags: [Backend, Architecture]
 ---
 
 Beim API-first-Ansatz erfolgt der Entwurf und die Entwicklung der Schnittstelle vor deren Implementierung. Durch dieses
