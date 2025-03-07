@@ -2,6 +2,7 @@
 title:    Buildless Web Development  
 ring:     trial  
 quadrant: concepts-and-methods
+tags:     [Frontend, DevOps]
 ---
 
 Viele der heutigen Web-Development-Tools sind entstanden, weil die Entwicklung der Webbrowser derjenigen der Sprachen

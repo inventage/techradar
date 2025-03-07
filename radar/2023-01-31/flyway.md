@@ -2,6 +2,7 @@
 title:    Flyway  
 ring:     adopt  
 quadrant: tools
+tags:     [Data, DevOps]
 ---
 
 Als Datenbank-Migrationstool kümmert sich [Flyway][flyway] um das Einspielen von Migrationsskripten, sodass ein

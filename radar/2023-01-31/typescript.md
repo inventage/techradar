@@ -2,6 +2,7 @@
 title:    TypeScript  
 ring:     adopt  
 quadrant: libraries-frameworks-and-languages
+tags:     [Frontend]
 ---
 
 [TypeScript][typescript] ist eine Obermenge von JavaScript und ergänzt sie mit typisierten Sprachkonstrukten. Der

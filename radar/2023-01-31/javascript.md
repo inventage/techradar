@@ -2,6 +2,7 @@
 title:    JavaScript  
 ring:     hold  
 quadrant: libraries-frameworks-and-languages
+tags:     [Frontend]
 ---
 
 Die fehlende Typisierung der Sprache erschwert das Refactoring einer [JavaScript][javascript]-Codebasis. Dieser Umstand

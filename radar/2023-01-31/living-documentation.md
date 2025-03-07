@@ -2,6 +2,7 @@
 title:    Living Documentation  
 ring:     assess  
 quadrant: concepts-and-methods
+tags:     []
 ---
 
 [Living Documentation][living-documentation] hat zum Ziel, die Anforderungen eines Systems und deren Implementierungen

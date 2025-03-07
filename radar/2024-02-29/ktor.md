@@ -2,6 +2,7 @@
 title:    Ktor  
 ring:     adopt
 quadrant: libraries-frameworks-and-languages
+tags:     [Backend]
 ---
 
 [Ktor][ktor] ist ein leichtgewichtiges Framework für [Kotlin][kotlin], mit dem sowohl HTTP-Server als auch HTTP-Clients

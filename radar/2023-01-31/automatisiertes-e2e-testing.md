@@ -2,6 +2,7 @@
 title:    Automatisiertes E2E-Testing  
 ring:     trial  
 quadrant: concepts-and-methods
+tags:     [Testing]
 ---
 
 Unter End-to-End-Tests versteht man das Prüfen der gesamten Applikation — vom Frontend bis zum Backend. Die Anwendung

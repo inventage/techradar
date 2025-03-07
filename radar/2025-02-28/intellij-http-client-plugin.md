@@ -2,6 +2,7 @@
 title:    Intellij HTTP-Client-Plugin
 ring:     adopt
 quadrant: tools
+tags:     [Testing]
 ---
 
 Nachdem wir das [IntelliJ HTTP-Client-Plugin][intellij-http-client-plugin] sowie das [HTTP-Client-CLI][http-client-cli] in verschiedenen Projekten getestet haben, verschieben wir dieses in den Verbreiten-Ring (adopt).

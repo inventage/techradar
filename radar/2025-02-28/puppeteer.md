@@ -2,6 +2,7 @@
 title:    Puppeteer  
 ring:     adopt  
 quadrant: libraries-frameworks-and-languages
+tags:     [Testing]
 ---
 
 [Puppeteer][puppeteer] ist eine JavaScript-Library, die eine high-level API zur Automatisierung von Chrome und Firefox zur Verfügung stellt. Bei Inventage setzen wir Puppeteer hauptsächlich für automatisierte End-to-End-Tests ein.

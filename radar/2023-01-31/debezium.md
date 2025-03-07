@@ -2,6 +2,7 @@
 title:    Debezium  
 ring:     adopt  
 quadrant: tools
+tags:     [Backend, Data]
 ---
 
 [Debezium][debezium] ist ein Open-Source-Projekt, das [Change Data Capture][cdc] (CDC) für verschiedene Datenbanken

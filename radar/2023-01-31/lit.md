@@ -2,6 +2,7 @@
 title:    Lit  
 ring:     adopt  
 quadrant: libraries-frameworks-and-languages
+tags:     [Frontend]
 ---
 
 Mit [Lit][lit] können effizient agnostische UI-Komponenten für den Browser erstellt werden. Die plattform-nahe Library

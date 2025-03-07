@@ -2,6 +2,7 @@
 title:    Crossplane  
 ring:     trial  
 quadrant: tools
+tags:     [DevOps]
 ---
 
 [Crossplane][crossplane] ist eine Open-Source-Erweiterung für Kubernetes zur deklarativen Verwaltung von Infrastruktur als Custom-Resources. Ursprünglich wurde es für die Verwaltung von Cloud-Infrastruktur entwickelt. Inzwischen ist der Anwendungsbereich jedoch nicht mehr nur auf Cloud-Komponenten beschränkt. Mit entsprechenden Providern lässt sich grundsätzlich alles, was eine API hat, als Custom-Resource abbilden und verwalten.

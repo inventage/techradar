@@ -2,6 +2,7 @@
 title:    Argo CD  
 ring:     adopt  
 quadrant: tools
+tags:     [DevOps]
 ---
 
 [Argo CD][argocd] ist ein Tool für deklarative, versionskontrollierte Deployments von Artefakten (vorgehalten in

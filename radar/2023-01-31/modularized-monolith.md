@@ -2,6 +2,7 @@
 title:    Modularized Monolith  
 ring:     adopt  
 quadrant: concepts-and-methods
+tags:     [Backend, Architecture]
 ---
 
 Bei [modularen Monolithen][modular-monolith] handelt es sich um einen Architekturstil, welcher die Unterteilung einer

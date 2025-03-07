@@ -2,6 +2,7 @@
 title:    Web Components  
 ring:     adopt  
 quadrant: concepts-and-methods
+tags:     [Frontend]
 ---
 
 [Web Components][web-components] sind das native Komponentenmodell des Web. Sie sind heute weitverbreitet, in allen

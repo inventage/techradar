@@ -2,6 +2,7 @@
 title: Figma
 ring: trial
 quadrant: tools
+tags:     []
 ---
 
 [Figma][figma] ist eine webbasierte, kollaborative Software zur Erstellung von Prototypen im Bereich des [UX][ux] ("User

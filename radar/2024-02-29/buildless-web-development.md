@@ -2,6 +2,7 @@
 title:    Buildless Web Development  
 ring:     adopt  
 quadrant: concepts-and-methods
+tags:     [Frontend, DevOps]
 ---
 
 Wir sind weiterhin vom Buildless-Development-Ansatz überzeugt und setzen ihn heute insbesondere bei unseren internen

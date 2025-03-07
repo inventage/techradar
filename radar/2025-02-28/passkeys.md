@@ -2,6 +2,7 @@
 title:    Passkeys
 ring:     adopt
 quadrant: concepts-and-methods
+tags:     [Security]
 ---
 
 [Passkeys][passkeys] haben sich im letzten Jahr in unseren Projekten als sichere und benutzerfreundliche Alternative zu klassischen Login-Methoden bewährt.

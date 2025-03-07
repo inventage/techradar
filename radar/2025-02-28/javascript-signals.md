@@ -2,6 +2,7 @@
 title:    JavaScript Signals
 ring:     assess  
 quadrant: libraries-frameworks-and-languages
+tags:     [Frontend]
 ---
 
 Die [Signals Proposal für JavaScript][signals-proposal] führt ein standardisiertes Modell für reaktives State-Management ein. Signals sind Objekte, die Werte speichern und bei Änderungen automatisch Abonnenten benachrichtigen. Ziel ist es, reaktive Anwendungen zu ermöglichen, bei denen sich Zustandsänderungen effizient auf abhängige Teile auswirken.

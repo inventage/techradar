@@ -2,6 +2,7 @@
 title:    Vite  
 ring:     trial  
 quadrant: tools
+tags:     [Frontend]
 ---
 
 Die schnellen Kaltstarts und Reloads von [Vite][vite] haben uns überzeugt, diesen Dev-Server und Bundler

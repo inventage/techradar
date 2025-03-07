@@ -2,6 +2,7 @@
 title:    Artificial Intelligence  
 ring:     assess  
 quadrant: concepts-and-methods
+tags:     [AI]
 ---
 
 Unter Artificial Intelligence (AI) versteht man menschliches Lernen und Denken auf Computer zu übertragen. Mit

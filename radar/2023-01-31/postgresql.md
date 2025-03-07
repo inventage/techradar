@@ -2,6 +2,7 @@
 title:    PostgreSQL  
 ring:     adopt  
 quadrant: tools
+tags:     [Backend, Data]
 ---
 
 [PostgreSQL][postgres] (oder vereinfacht Postgres) ist eine (objekt-) relationale, quelloffene Datenbank. Postgres

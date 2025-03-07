@@ -2,6 +2,7 @@
 title:    GraalVM  
 ring:     assess  
 quadrant: platforms
+tags:     [Backend]
 ---
 
 Als Alternative zur Java Virtual Machine (JVM) lassen sich mit [GraalVM][graalvm] performante Applikationen mit

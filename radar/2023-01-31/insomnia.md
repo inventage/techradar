@@ -2,6 +2,7 @@
 title:    Insomnia  
 ring:     adopt  
 quadrant: tools
+tags:     []
 ---
 
 [Insomnia][insomnia] ist ein REST-API-Client, der sich zum Testen von RESTful Service-Schnittstellen eignet. Requests

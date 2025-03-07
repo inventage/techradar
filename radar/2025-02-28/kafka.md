@@ -2,6 +2,7 @@
 title:    Kafka  
 ring:     adopt  
 quadrant: platforms
+tags:     [Backend, Data]
 ---
 
 [Kafka][kafka] ist in vielen unserer Kundenprojekte als zuverlässige Messaging-Plattform im Einsatz.

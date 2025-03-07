@@ -2,6 +2,7 @@
 title:    WebAssembly  
 ring:     assess  
 quadrant: platforms
+tags:     []
 ---
 
 Mit [WASI][wasi] gibt es Bestrebungen, WebAssembly als Technologie für Server-Workloads zu etablieren. Die Integration

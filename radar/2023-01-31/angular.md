@@ -2,6 +2,7 @@
 title:    Angular  
 ring:     adopt  
 quadrant: libraries-frameworks-and-languages
+tags:     [Frontend]
 ---
 
 Als etabliertes Framework zur Erstellung von Web-Applikationen hat sich [Angular][angular] auch in unserem Umfeld

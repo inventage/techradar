@@ -2,6 +2,7 @@
 title:    Zero Bug Policy  
 ring:     assess  
 quadrant: concepts-and-methods
+tags:     []
 ---
 
 In vielen Organisationen wird der Pflege des Backlogs grosse Aufmerksamkeit zuteil. Im Backlog finden sich neben

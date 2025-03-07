@@ -2,6 +2,7 @@
 title:    Playwright  
 ring:     trial  
 quadrant: tools
+tags:     [Testing]
 ---
 
 Wir verwenden [Playwright][playwright] für das automatisierte Testen von Benutzeroberflächen. Playwright unterstützt für webbasiertes End-zu-End-Testen alle drei grossen Browser-Engines über die gleiche API. Es werden Bindings für Node.js, Java, Python und .Net zur Verfügung gestellt. Dies ermöglicht es auch Teams mit heterogenem Know-how, Tests mit demselben Werkzeug zu implementieren.

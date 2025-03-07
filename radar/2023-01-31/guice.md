@@ -2,6 +2,7 @@
 title:    Guice  
 ring:     hold  
 quadrant: libraries-frameworks-and-languages
+tags:     []
 ---
 
 [Guice][guice] ist eine einfache Dependency Injection Library, die ohne viel Aufwand in ein Java-Projekt eingebunden

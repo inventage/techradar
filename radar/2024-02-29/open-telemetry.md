@@ -2,6 +2,7 @@
 title:    OpenTelemetry  
 ring:     adopt
 quadrant: libraries-frameworks-and-languages
+tags:     [Monitoring]
 ---
 
 Eine umfassende Sicht auf die Systemleistung und das Verhalten von Anwendungen ist für das Monitoring und die Fehlerbehebung 

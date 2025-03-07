@@ -2,6 +2,7 @@
 title: LangChain4j
 ring: assess
 quadrant: libraries-frameworks-and-languages
+tags:     [AI]
 ---
 
 Bei der Integration eines Sprachmodells (LLMs) in eine Applikation, muss diese die AI mit natürlicher Sprache steuern.
