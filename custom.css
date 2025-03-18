@@ -1,7 +1,41 @@
 /* Use this file to optionally override global css styles and use with caution. */
 /* See README.md for hints and examples: https://github.com/AOEpeople/aoe_technology_radar/ */
+@import url('https://fonts.googleapis.com/css?family=Lato:700,900|Open+Sans:300,400,700&display=swap');
 
 /* Remove the superfluous bottom margin from the very last paragraph element of a blip text (in its detail view). */
 [class^="ItemDetail_content"] p:last-child {
     margin-bottom: 0;
 }
+
+/* Default font is Open Sans */
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Font for headings is Lato */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    font-weight: 900;
+}
+
+/* Adds a bit more spacing on top of the tag selection */
+main [class*="Tags_tags"] {
+    margin-top: 60px;
+}
+
+/* Better contrast for badges */
+main [class*="Badge_colored"]:not([class*="ItemList_flag"]) {
+    color: white;
+}
+
+
