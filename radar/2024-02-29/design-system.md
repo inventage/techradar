@@ -5,7 +5,7 @@ quadrant: concepts-and-methods
 tags:     [Frontend, Architecture]
 ---
 
-Wir haben in unseren Projekten die Erfahrung gemacht, dass Design-Tokens allein häufig nicht ausreichen, um die
+Wir haben in [unseren Projekten](https://inventage.com/projekte/vp-bank-design-system) die Erfahrung gemacht, dass Design-Tokens allein häufig nicht ausreichen, um die
 Konsistenzanforderungen zu erfüllen, insbesondere bei Projekten im Umfeld komplexer Systeme. Solche Systeme bestehen in
 der Regel aus mehreren Applikationen oder Produkten verschiedener Lieferanten.
 
