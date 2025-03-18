@@ -6,4 +6,4 @@ featured: false
 tags:     []
 ---
 
-Wir haben die Technologie vom Tech-Radar entfernt und werden sie nicht weiter thematisieren.
+Wir haben entschieden, diese Technologie nicht mehr in unserem Tech-Radar zu führen. Dieser Entscheid ist unabhängig von der Relevanz der Technologie.
