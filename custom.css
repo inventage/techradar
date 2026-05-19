@@ -38,4 +38,55 @@ main [class*="Badge_colored"]:not([class*="ItemList_flag"]) {
     color: white;
 }
 
+/* =========================================================
+   Blog-link footer — tinted accent band flush with the
+   bottom of the revision card. The whole band is a single
+   anchor, so the entire area is clickable. Selectors use
+   the `[class^="ItemDetail_content"]` prefix to outrank
+   the existing :last-child margin reset and `.content a`
+   default styling.
+   ========================================================= */
+[class^="ItemDetail_content"] a.custom-blog-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 22px -15px -30px;
+    padding: 11px 15px;
+    background: color-mix(in srgb, var(--highlight) 16%, var(--background));
+    border-radius: 0 0 6px 6px;
+    color: var(--text);
+    font-size: 13px;
+    line-height: 1.4;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+[class^="ItemDetail_content"] a.custom-blog-link:hover {
+    background: color-mix(in srgb, var(--highlight) 26%, var(--background));
+    color: var(--text);
+    text-decoration: none;
+}
+[class^="ItemDetail_content"] a.custom-blog-link::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 10px;
+    flex-shrink: 0;
+    background-color: var(--highlight);
+    -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 10' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M1 5h12M9 1l4 4-4 4'/></svg>") no-repeat center / contain;
+    mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 10' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M1 5h12M9 1l4 4-4 4'/></svg>") no-repeat center / contain;
+}
+.custom-blog-link-label {
+    color: var(--highlight);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+}
+@media (min-width: 768px) {
+    [class^="ItemDetail_content"] a.custom-blog-link {
+        margin: 24px -30px -30px;
+        padding: 12px 30px;
+    }
+}
+
 
