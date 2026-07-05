@@ -1,0 +1,31 @@
+services:
+  techradar:
+    build: .
+    ports:
+      - "8080:3000"
+    volumes:
+      # Mount radar markdown files — changes trigger automatic rebuild
+      - ./radar:/app/radar:ro
+      - ./public:/app/public:ro
+      - ./config.json:/app/config.json:ro
+      - ./about.md:/app/about.md:ro
+      - ./custom.css:/app/custom.css:ro
+    # Sync data, rebuild, then watch for changes + serve
+    command: >
+      sh -c '
+        sync_data() {
+          cp -r /app/radar /app/.techradar/data/radar
+          cp /app/public/* /app/.techradar/public/
+          cp /app/about.md /app/.techradar/data/about.md
+          cp /app/custom.css /app/.techradar/src/styles/custom.css
+          cp /app/config.json /app/.techradar/data/config.json
+          cd /app/.techradar && npx tsx scripts/buildData.ts
+        }
+        sync_data &&
+        cd /app &&
+        npx nodemon
+          --watch /app/radar -e md
+          --delay 2
+          --exec "sh -c \"cd /app && sync_data || true\"" &
+        cd /app/.techradar && npx next dev
+      '

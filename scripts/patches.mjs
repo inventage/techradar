@@ -126,7 +126,22 @@ interface RevisionProps {
   },
 
   // ───────────────────────────────────────────────────────────────────
-  // 4. ItemDetail.tsx — propagate blog from the top-level Item into
+  // 4. Quadrant pages — hide removed blips (featured: false) entirely
+  //    instead of showing them faded. Their detail pages stay reachable
+  //    via links and the revision history of other blips.
+  // ───────────────────────────────────────────────────────────────────
+  {
+    file: "src/pages/[quadrant]/index.tsx",
+    marker: "/* inventage-hide-removed-patch */",
+    find: `    () => quadrant?.id && getItems(quadrant.id).sort(sortByFeaturedAndTitle),`,
+    replace: `    () =>
+      quadrant?.id &&
+      getItems(quadrant.id, true) /* inventage-hide-removed-patch */
+        .sort(sortByFeaturedAndTitle),`,
+  },
+
+  // ───────────────────────────────────────────────────────────────────
+  // 5. ItemDetail.tsx — propagate blog from the top-level Item into
   //    the first Revision (the latest release block)
   // ───────────────────────────────────────────────────────────────────
   {

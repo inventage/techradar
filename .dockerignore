@@ -1,0 +1,5 @@
+node_modules/
+.techradar/
+build/
+.DS_Store
+.git

@@ -1,0 +1,7 @@
+[
+  { "from": "/tools/postgresql", "to": "/platforms/postgresql" },
+  { "from": "/tools/keycloak", "to": "/platforms/keycloak" },
+  { "from": "/tools/debezium", "to": "/platforms/debezium" },
+  { "from": "/tools/loki", "to": "/platforms/loki" },
+  { "from": "/tools/tempo", "to": "/platforms/tempo" }
+]

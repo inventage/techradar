@@ -157,6 +157,95 @@ for (const patch of patches) {
 info(`  applied: ${applied}, already-present: ${skipped}`);
 
 // ───────────────────────────────────────────────────────────────────
+// Redirect stubs for blips that moved to another quadrant
+//
+// Two sources:
+// 1. Radar content: the final quadrant of a blip is the one in its
+//    latest release entry (same rule as buildData.ts). For every
+//    quadrant a blip previously lived in, a stub is derived
+//    automatically.
+// 2. redirects.json: explicit {from, to} pairs for moves that are not
+//    visible in the content, i.e. quadrant corrections edited in place
+//    across all release entries.
+//
+// Each stub is a static page at the old URL that forwards to the new
+// one, so published deep links keep working after a move.
+// ───────────────────────────────────────────────────────────────────
+function redirectHtml(target) {
+  return `<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url=${target}">
+<link rel="canonical" href="${target}">
+<script>location.replace(${JSON.stringify(target)});</script>
+<title>Weiterleitung</title>
+</head>
+<body>
+<p>Dieser Eintrag ist umgezogen: <a href="${target}">${target}</a></p>
+</body>
+</html>
+`;
+}
+
+function writeRedirectStubs() {
+  const config = JSON.parse(
+    fs.readFileSync(path.join(CWD, "config.json"), "utf8"),
+  );
+  const base = config.basePath === "/" ? "" : (config.basePath ?? "");
+
+  // slug -> { final: latest quadrant, seen: every quadrant it ever had }
+  const history = new Map();
+  const radarDir = path.join(CWD, "radar");
+  const releases = fs
+    .readdirSync(radarDir)
+    .filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d))
+    .sort();
+  for (const release of releases) {
+    const releaseDir = path.join(radarDir, release);
+    for (const file of fs.readdirSync(releaseDir)) {
+      if (!file.endsWith(".md")) continue;
+      const contents = fs.readFileSync(path.join(releaseDir, file), "utf8");
+      const frontmatter = contents.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+      const quadrant = frontmatter?.[1].match(/^quadrant:[ \t]*(\S+)/m)?.[1];
+      if (!quadrant) continue;
+      const slug = file.slice(0, -3);
+      const entry = history.get(slug) ?? { final: quadrant, seen: new Set() };
+      entry.seen.add(quadrant);
+      entry.final = quadrant;
+      history.set(slug, entry);
+    }
+  }
+
+  const pairs = [];
+  for (const [slug, { final, seen }] of history) {
+    for (const old of seen) {
+      if (old !== final) pairs.push({ from: `/${old}/${slug}`, to: `/${final}/${slug}` });
+    }
+  }
+  const redirectsFile = path.join(CWD, "redirects.json");
+  if (fs.existsSync(redirectsFile)) {
+    pairs.push(...JSON.parse(fs.readFileSync(redirectsFile, "utf8")));
+  }
+
+  let written = 0;
+  for (const { from, to } of pairs) {
+    const target = to.replace(/\/$/, "");
+    if (!fs.existsSync(path.join(CWD, "build", ...target.split("/"), "index.html"))) {
+      warn(`redirect target has no page, skipping: ${from} -> ${to}`);
+      continue;
+    }
+    const stubFile = path.join(CWD, "build", ...from.replace(/\/$/, "").split("/"), "index.html");
+    if (fs.existsSync(stubFile)) continue; // never overwrite a real page
+    fs.mkdirSync(path.dirname(stubFile), { recursive: true });
+    fs.writeFileSync(stubFile, redirectHtml(`${base}${target}`));
+    info(`  redirect: ${from} -> ${target}`);
+    written++;
+  }
+  info(`Redirect stubs written: ${written}`);
+}
+
+// ───────────────────────────────────────────────────────────────────
 // Build data and run next
 // ───────────────────────────────────────────────────────────────────
 info("Building data");
@@ -177,6 +266,7 @@ if (PARAMETER === "serve") {
   }
   info(`Copying techradar to ${path.join(CWD, "build")}`);
   fs.renameSync(path.join(BUILDER_DIR, "out"), path.join(CWD, "build"));
+  writeRedirectStubs();
 } else {
   error(`Usage: techradar.mjs <serve|build> [extra next args]`);
 }
