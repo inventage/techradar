@@ -1,7 +1,7 @@
 ---
 title:    Tempo  
 ring:     adopt  
-quadrant: tools
+quadrant: platforms
 tags:     [Monitoring]
 ---
 

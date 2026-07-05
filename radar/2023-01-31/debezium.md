@@ -1,7 +1,7 @@
 ---
 title:    Debezium  
 ring:     adopt  
-quadrant: tools
+quadrant: platforms
 tags:     [Backend, Data]
 ---
 
@@ -22,7 +22,7 @@ sich das Outbox Pattern in Quarkus relativ einfach konfigurieren.
 
 [debezium]: https://debezium.io/
 [cdc]: https://en.wikipedia.org/wiki/Change_data_capture
-[postgres]: /tools/postgresql
+[postgres]: /platforms/postgresql
 [kafka]: /platforms/kafka
 [outbox-pattern]: https://medium.com/design-microservices-architecture-with-patterns/outbox-pattern-for-microservices-architectures-1b8648dfaa27
 [quarkus]: /libraries-frameworks-and-languages/quarkus

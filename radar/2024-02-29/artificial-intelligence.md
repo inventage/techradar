@@ -23,6 +23,6 @@ deshalb intensiv mit folgenden Themen beschäftigen:
 - Die [LangChain4j][langchain4j]-Bibliothek ermöglicht die Integration von LLMs mit Java, was die Entwicklung
   von AI-basierten Anwendungen vereinfacht.
 
-[ai-coding-assistant]: /concepts-and-methods/ai-assistant
-[self-hosted-llm]: /concepts-and-methods/self-hosted-llms
+[ai-coding-assistant]: /tools/ai-assistant
+[self-hosted-llm]: /platforms/self-hosted-llms
 [langchain4j]: /libraries-frameworks-and-languages/langchain4j

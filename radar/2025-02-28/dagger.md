@@ -1,6 +1,6 @@
 ---
 title:    Dagger  
-ring:     adopt  
+ring:     assess  
 quadrant: tools
 tags:     [DevOps]
 ---

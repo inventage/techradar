@@ -1,7 +1,7 @@
 ---
 title:    Keycloak  
 ring:     adopt  
-quadrant: tools
+quadrant: platforms
 tags:     [Security]
 ---
 
