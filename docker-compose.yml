@@ -10,7 +10,11 @@ services:
       - ./config.json:/app/config.json:ro
       - ./about.md:/app/about.md:ro
       - ./custom.css:/app/custom.css:ro
-    # Sync data, rebuild, then watch for changes + serve
+    # The image already carries a patched .techradar/ (blog links, hidden
+    # removed blips) baked in at build time. At runtime we only re-sync the
+    # mounted content into it, rebuild the data, then watch + serve. We do
+    # NOT re-run the wrapper here, so the patches stay intact and there is no
+    # expensive .techradar/ recreate on container start.
     command: >
       sh -c '
         sync_data() {
@@ -27,5 +31,5 @@ services:
           --watch /app/radar -e md
           --delay 2
           --exec "sh -c \"cd /app && sync_data || true\"" &
-        cd /app/.techradar && npx next dev
+        cd /app/.techradar && npx next dev -H 0.0.0.0
       '
