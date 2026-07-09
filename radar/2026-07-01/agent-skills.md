@@ -5,7 +5,7 @@ quadrant: concepts-and-methods
 tags:     [AI]
 ---
 
-Agent Skills sind wiederverwendbare Fähigkeiten für AI-Agents, vergleichbar mit Plugins, aber speziell auf die Bedürfnisse von [Coding Agents][coding-agents] zugeschnitten. Sie kapseln prozedurales Wissen in Form von Anleitungen, Workflows oder Aktionen, die ein Agent bei Bedarf abrufen und ausführen kann. Marktplätze wie [skills.sh][skills] bieten fertige Skills zur Installation an, und Coding Agents wie [Claude Code][claude-skills] oder [opencode][opencode-skills] bringen eigene Skills-Systeme mit.
+Agent Skills sind wiederverwendbare Fähigkeiten für AI-Agents, vergleichbar mit Plugins, aber speziell auf die Bedürfnisse von [Coding-Agents][coding-agents] zugeschnitten. Sie kapseln prozedurales Wissen in Form von Anleitungen, Workflows oder Aktionen, die ein Agent bei Bedarf abrufen und ausführen kann. Marktplätze wie [skills.sh][skills] bieten fertige Skills zur Installation an, und Coding-Agents wie [Claude Code][claude-skills] oder [opencode][opencode-skills] bringen eigene Skills-Systeme mit.
 
 Wir experimentieren mit Skills, um projektspezifische Konventionen und wiederkehrende Aufgaben für unsere Agents zu standardisieren, zum Beispiel Code-Review-Checklisten, Deployment-Workflows oder Architektur-Validierungen. Das Ziel ist, die Konsistenz bei der Arbeit mit AI-Agents zu erhöhen und den Einstieg in neue Projekte zu erleichtern.
 
