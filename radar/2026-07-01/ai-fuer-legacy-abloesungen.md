@@ -1,5 +1,5 @@
 ---
-title:    AI für Migrationen
+title:    AI für Legacy-Ablösungen
 ring:     trial
 quadrant: concepts-and-methods
 tags:     [AI]
