@@ -33,8 +33,10 @@ main [class*="Tags_tags"] {
     margin-top: 60px;
 }
 
-/* Better contrast for badges */
-main [class*="Badge_colored"]:not([class*="ItemList_flag"]) {
+/* Better contrast for filled colored badges (e.g. ring badges in the item list).
+   Exclude selectable filter pills: when unselected they have a transparent
+   background, so white text would be invisible on the light page. */
+main [class*="Badge_colored"]:not([class*="ItemList_flag"]):not([class*="Badge_selectable"]) {
     color: white;
 }
 

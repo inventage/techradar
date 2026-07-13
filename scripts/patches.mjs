@@ -140,6 +140,32 @@ interface RevisionProps {
         .sort(sortByFeaturedAndTitle),`,
   },
 
+  // Overview page — hide removed blips (featured: false) from the item list,
+  // mirroring the quadrant-page patch above. Pass featured=true to getItems.
+  {
+    file: "src/pages/overview.tsx",
+    marker: "/* inventage-hide-removed-overview-patch */",
+    find: `    const items = getItems().filter((item) => !ring || item.ring === ring);`,
+    replace: `    const items = getItems(undefined, true) /* inventage-hide-removed-overview-patch */.filter(
+      (item) => !ring || item.ring === ring,
+    );`,
+  },
+
+  // Blip detail page — hide removed blips (featured: false) from the related
+  // items sidebar (same quadrant + ring). Only the related list is filtered;
+  // getStaticPaths below intentionally keeps getItems() unfiltered so removed
+  // blips keep their own reachable detail pages.
+  {
+    file: "src/pages/[quadrant]/[id].tsx",
+    marker: "/* inventage-hide-removed-related-patch */",
+    find: `    return getItems()
+      .filter((i) => i.quadrant === quadrant?.id && i.ring == item?.ring)
+      .sort(sortByFeaturedAndTitle);`,
+    replace: `    return getItems(undefined, true) /* inventage-hide-removed-related-patch */
+      .filter((i) => i.quadrant === quadrant?.id && i.ring == item?.ring)
+      .sort(sortByFeaturedAndTitle);`,
+  },
+
   // ───────────────────────────────────────────────────────────────────
   // 5. ItemDetail.tsx — propagate blog from the top-level Item into
   //    the first Revision (the latest release block)
