@@ -35,3 +35,14 @@ technology radar generator and produces static HTML files and other resources.
 ### Static files
 
 After a successful build, the static files are accessible in the `/build` directory.
+
+## Deployment
+
+Deployment is handled by the GitHub Actions workflow in [.github/workflows/main.yml](./.github/workflows/main.yml), which runs on every push and pull request. It has two jobs:
+
+- **Build & Deploy (Preview)** runs for every branch **except** `prod`. It builds the radar and deploys it as a Netlify preview under `https://<branch-slug>--inventage-tech-radar.netlify.app`. On pull requests, the workflow comments the preview URL on the PR.
+- **Build & Deploy** runs only for the `prod` branch. It builds the radar and publishes it to GitHub Pages (`gh-pages` branch), which serves the production site at https://techradar.inventage.com (configured via the `cname` setting).
+
+Neither job runs for commits authored by `dependabot[bot]`.
+
+To release changes to production, merge or push them to the `prod` branch. Pushes to `main` (or any other branch) only produce a Netlify preview, not a production deployment.

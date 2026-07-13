@@ -6,7 +6,7 @@ jobs:
   build_deploy_preview:
     name: Build & Deploy (Preview)
     runs-on: ubuntu-latest
-    if: github.ref != 'refs/heads/main' && github.actor != 'dependabot[bot]'
+    if: github.ref != 'refs/heads/prod' && github.actor != 'dependabot[bot]'
 
     steps:
       - uses: actions/checkout@v3
@@ -67,7 +67,7 @@ jobs:
   build_deploy:
     name: Build & Deploy
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' && github.actor != 'dependabot[bot]'
+    if: github.ref == 'refs/heads/prod' && github.actor != 'dependabot[bot]'
 
     steps:
       - uses: actions/checkout@v3
