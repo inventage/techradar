@@ -40,6 +40,16 @@ main [class*="Badge_colored"]:not([class*="ItemList_flag"]):not([class*="Badge_s
     color: white;
 }
 
+/* The blip hover tooltip on the radar uses the quadrant color as its
+   background. The dark teal "Konzepte & Methoden" quadrant (#0a7f90) made the
+   default dark tooltip text unreadable. Use white tooltip text for all
+   quadrants for a consistent look. The extra [style] attribute selector
+   raises specificity above the component's default `color: var(--foreground)`
+   rule (the tooltip always carries inline left/top styles). */
+[class*="Radar_tooltip"][style] {
+    color: white;
+}
+
 /* =========================================================
    Blog-link footer — tinted accent band flush with the
    bottom of the revision card. The whole band is a single
