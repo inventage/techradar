@@ -36,11 +36,15 @@ jobs:
       - name: Build
         run: npm run build
 
-      # Pin netlify-cli
-      # @see https://github.com/netlify/cli/issues/6841
+      # Pin netlify-cli for reproducible builds. Bumped 17.36.1 -> 21.6.0:
+      # the old pin avoided the "Multiple possible build commands" regression
+      # from 17.36.2 (netlify/cli#6841, since fixed), but it dragged in an old
+      # sharp that downloaded libvips at install time and flaked on network
+      # errors (ECONNRESET). 21.6.0 dropped that sharp dependency and is the
+      # newest release still compatible with Node 18.
       - name: Install netlify-cli
         shell: bash
-        run: npm i -g netlify-cli@17.36.1
+        run: npm i -g netlify-cli@21.6.0
 
       # Use netlify-cli for deployment
       # @see https://cli.netlify.com/commands/deploy/
