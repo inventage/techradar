@@ -9,13 +9,13 @@ jobs:
     if: github.ref != 'refs/heads/prod' && github.actor != 'dependabot[bot]'
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: '18'
 
       # @see https://www.voorhoede.nl/en/blog/super-fast-npm-install-on-github-actions/
-      - uses: actions/cache@v4
+      - uses: actions/cache@v5
         id: cache-node-modules
         with:
           path: ./node_modules
@@ -36,11 +36,15 @@ jobs:
       - name: Build
         run: npm run build
 
-      # Pin netlify-cli
-      # @see https://github.com/netlify/cli/issues/6841
+      # Pin netlify-cli for reproducible builds. Bumped 17.36.1 -> 21.6.0:
+      # the old pin avoided the "Multiple possible build commands" regression
+      # from 17.36.2 (netlify/cli#6841, since fixed), but it dragged in an old
+      # sharp that downloaded libvips at install time and flaked on network
+      # errors (ECONNRESET). 21.6.0 dropped that sharp dependency and is the
+      # newest release still compatible with Node 18.
       - name: Install netlify-cli
         shell: bash
-        run: npm i -g netlify-cli@17.36.1
+        run: npm i -g netlify-cli@21.6.0
 
       # Use netlify-cli for deployment
       # @see https://cli.netlify.com/commands/deploy/
@@ -50,8 +54,9 @@ jobs:
           netlify deploy \
             --alias ${{ env.BRANCH_NAME_SLUG }} \
             --dir ./build \
+            --no-build \
             --message 'Preview deployment for ${{ steps.slug.outputs.branch-name }} (${{ env.GITHUB_SHA_SHORT }})' \
-            --json true
+            --json
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
@@ -70,13 +75,13 @@ jobs:
     if: github.ref == 'refs/heads/prod' && github.actor != 'dependabot[bot]'
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: '18'
 
       # @see https://www.voorhoede.nl/en/blog/super-fast-npm-install-on-github-actions/
-      - uses: actions/cache@v3
+      - uses: actions/cache@v5
         id: cache-node-modules
         with:
           path: ./node_modules
