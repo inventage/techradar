@@ -4,6 +4,7 @@
   "logoFile": "/logo.svg",
   "jsFile": "/analytics.js",
   "editUrl": "",
+  "imprint": "https://inventage.com/firma/datenschutzerklaerung",
   "toggles": {
     "showChart": true,
     "showTagFilter": true,
