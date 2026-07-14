@@ -54,6 +54,7 @@ jobs:
           netlify deploy \
             --alias ${{ env.BRANCH_NAME_SLUG }} \
             --dir ./build \
+            --no-build \
             --message 'Preview deployment for ${{ steps.slug.outputs.branch-name }} (${{ env.GITHUB_SHA_SHORT }})' \
             --json
         env:
