@@ -2,7 +2,7 @@
   "basePath": "/",
   "baseUrl": "https://techradar.inventage.com",
   "logoFile": "/logo.svg",
-  "jsFile": "",
+  "jsFile": "/analytics.js",
   "editUrl": "",
   "toggles": {
     "showChart": true,
