@@ -9,7 +9,7 @@ jobs:
     if: github.ref != 'refs/heads/prod' && github.actor != 'dependabot[bot]'
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
@@ -75,7 +75,7 @@ jobs:
     if: github.ref == 'refs/heads/prod' && github.actor != 'dependabot[bot]'
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
