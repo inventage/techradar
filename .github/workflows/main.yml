@@ -6,7 +6,12 @@ jobs:
   build_deploy_preview:
     name: Build & Deploy (Preview)
     runs-on: ubuntu-latest
-    if: github.ref != 'refs/heads/prod' && github.actor != 'dependabot[bot]'
+    if: github.ref != 'refs/heads/prod'
+    # Dependabot PRs are built to catch broken updates, but not deployed:
+    # their runs get no Netlify secrets and a read-only token. Checked by
+    # branch name (not github.actor) so manual re-runs behave the same.
+    env:
+      IS_DEPENDABOT: ${{ startsWith(github.head_ref || github.ref_name, 'dependabot/') }}
 
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -43,6 +48,7 @@ jobs:
       # network errors (ECONNRESET). Modern netlify-cli dropped that sharp
       # dependency; on Node 22 we can run the latest release.
       - name: Install netlify-cli
+        if: env.IS_DEPENDABOT != 'true'
         shell: bash
         run: npm i -g netlify-cli@26.2.0
 
@@ -50,6 +56,7 @@ jobs:
       # @see https://cli.netlify.com/commands/deploy/
       - name: Deploy
         id: deploy
+        if: env.IS_DEPENDABOT != 'true'
         run: |
           netlify deploy \
             --alias ${{ env.BRANCH_NAME_SLUG }} \
@@ -63,7 +70,7 @@ jobs:
 
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@24bffb9b452ba05a4f3f77933840a6a841d1b32b # v3.0.1
-        if: ${{ github.event_name == 'pull_request' }}
+        if: github.event_name == 'pull_request' && env.IS_DEPENDABOT != 'true'
         with:
           message: |
             Deployed to ${{ env.DEPLOY_URL }}
